@@ -1,0 +1,45 @@
+﻿{
+  "nav": { "home": "홈", "games": "게임", "about": "소개", "blog": "블로그", "contact": "문의" },
+  "hero": { "tagline": "게임은 예술이다.", "subtitle": "배우기 쉽고, 마스터하기 어렵고, 멈추기 불가능한 정밀 모바일 게임을 만듭니다.", "cta": "TapStop 둘러보기", "ctaSecondary": "블로그 읽기" },
+  "manifesto": { "title": "우리의 철학", "craft": { "title": "장인정신", "desc": "모든 픽셀, 애니메이션, 사운드 이펙트가 신중하게 고려됩니다. 플레이어가 느끼지만 눈치채지 못하는 세부 사항에 집착합니다." }, "joy": { "title": "기쁨", "desc": "게임은 도전적이더라도 미소 짓게 해야 합니다. 기쁨을 위해 설계합니다." }, "precision": { "title": "정밀함", "desc": "탄탄한 컨트롤. 완벽한 타이밍 창. 만족스러운 피드백." } },
+  "featuredGame": { "title": "최신 게임", "badge": "Google Play에서 이용 가능", "cta": "게임 상세보기", "download": "무료 다운로드" },
+  "process": { "title": "게임 제작 방식", "subtitle": "아이디어 불꽃부터 완성된 제품까지", "steps": { "idea": { "title": "아이디어", "desc": "모든 것은 느낌에서 시작됩니다 — 기쁨을 일으키는 메카닉." }, "design": { "title": "디자인", "desc": "시각적 언어, 사운드 팔레트, UX 흐름이 하나의 세계를 만듭니다." }, "build": { "title": "개발", "desc": "Flutter가 60fps 부드러운 애니메이션으로 디자인을 실현합니다." }, "polish": { "title": "다듬기", "desc": "수십 번의 반복으로 게임이 완벽해질 때까지 다듬습니다." }, "launch": { "title": "출시", "desc": "출시하고, 플레이어의 의견을 듣고, 계속 개선합니다." } } },
+  "blogPreview": { "title": "스튜디오에서", "subtitle": "게임 개발, 디자인, 인디 여정에 관한 생각", "readMore": "기사 읽기", "viewAll": "모든 포스트 보기" },
+  "contactCta": { "title": "아이디어가 있으신가요? 이야기해봐요.", "subtitle": "파트너십, 언론 또는 그냥 인사하기 — 연락 주세요.", "cta": "문의하기" },
+  "about": { "pageTitle": "Tion Play 소개", "storyTitle": "이야기", "story1": "Tion Play는 2023년 여름 터키 이스탄불에서 탄생했습니다. 게임에 평생 열정을 가진 소프트웨어 개발자 파티 아이타르가 꿈꾸기를 멈추고 만들기 시작하기로 결정했습니다.", "story2": "스튜디오 이름은 예상치 못한 뮤즈에서 왔습니다: 파티의 고양이 Tion. 호기심 많고, 정밀하며, 무시할 수 없는 존재.", "story3": "이스탄불의 홈 오피스에서 작업하며, Tion Play는 완벽한 타이밍의 만족감을 기리는 게임을 만들어왔습니다.", "missionTitle": "우리의 미션", "mission": "예술처럼 느껴지는 게임 만들기 — 누구나 접근 가능하고, 마스터하는 깊은 만족감이 있는.", "valuesTitle": "우리가 추구하는 것", "teamTitle": "스튜디오", "teamMember": { "name": "파티 아이타르", "role": "창립자 & 솔로 개발자", "bio": "개발자, 디자이너, 사운드 큐레이터, 테스터, 마케터. 파티가 모든 것을 합니다." }, "statsTitle": "숫자로 보기", "stats": { "games": { "value": "1", "label": "출시된 게임" }, "levels": { "value": "100", "label": "설계된 레벨" }, "themes": { "value": "10", "label": "고유한 테마" }, "cat": { "value": "1", "label": "사무실의 고양이 🐱" } } },
+  "games": { "pageTitle": "우리의 게임", "subtitle": "정밀하게 제작되고, 기쁨을 위해 설계된", "filterAll": "전체 게임", "filterReleased": "출시됨", "filterComing": "출시 예정", "comingSoon": "출시 예정", "released": "출시됨", "download": "Google Play에서 다운로드", "details": "상세보기", "features": "특징" },
+  "gameDetail": { "download": "Google Play에서 무료 다운로드", "privacyPolicy": "개인정보 처리방침", "screenshots": "스크린샷", "themes": "게임 테마", "levels": "100 레벨", "themes10": "10개의 고유한 테마", "free": "무료 플레이" },
+  "blog": { "pageTitle": "블로그", "subtitle": "게임 개발, 디자인, 인디 여정에 관한 인사이트", "searchPlaceholder": "기사 검색...", "filterAll": "전체", "readMore": "더 읽기", "minRead": "분 읽기", "by": "작성자", "noResults": "기사를 찾을 수 없습니다. 다른 검색어를 시도해보세요.", "categories": { "all": "전체", "mobileGames": "모바일 게임", "gameDev": "게임 개발", "flutter": "Flutter", "indieDev": "인디 개발", "gameDesign": "게임 디자인", "mobileIndustry": "모바일 산업" } },
+  "blogPost": { "backToBlog": "← 블로그로 돌아가기", "share": "이 기사 공유하기", "shareTwitter": "X에서 공유", "shareLinkedin": "LinkedIn에서 공유", "copyLink": "링크 복사", "copied": "복사됨!", "relatedPosts": "관련 포스트", "prevPost": "← 이전", "nextPost": "다음 →" },
+  "contact": { "pageTitle": "문의", "subtitle": "여러분의 연락을 기다립니다", "name": "이름", "email": "이메일 주소", "subject": "제목", "message": "메시지", "send": "메시지 보내기", "sending": "전송 중...", "success": "메시지가 전송되었습니다! 곧 연락드리겠습니다.", "error": "문제가 발생했습니다. 다시 시도해주세요.", "emailInvalid": "유효한 이메일 주소를 입력해주세요.", "captchaLabel": "두뇌 운동: {{a}} + {{b}} =", "captchaError": "잘못된 답입니다. 다시 시도해주세요.", "subjects": { "general": "일반 문의", "partnership": "파트너십", "press": "언론 및 미디어", "other": "기타" }, "info": { "location": "이스탄불, 터키", "email": "hello@tionplay.com", "social": "온라인에서 찾아보기" }, "orEmail": "또는 직접 이메일을 보내주세요:" },
+  "footer": { "tagline": "이스탄불에서 사랑을 담아 게임을 만듭니다.", "quickLinks": "빠른 링크", "legal": "법적 사항", "privacyPolicy": "개인정보 처리방침", "terms": "이용약관", "copyright": "© 2026 Tion Play. 모든 권리 보유.", "madeWith": "이스탄불에서 ☕와 🐱로 만들었습니다" },
+  "notFound": { "title": "레벨을 찾을 수 없습니다!", "subtitle": "이 페이지는 존재하지 않는 것 같습니다. 비밀 레벨일까요?", "cta": "홈으로 돌아가기" },
+  "langSwitcher": { "label": "언어" }
+,
+  "tapstop": {
+    "tagline": "완벽한 순간에 탭 — 10가지 도전에서!",
+    "description": "TapStop!은 10가지의 완전히 다른 미니게임 메커니즘을 가진 정밀 타이밍 게임입니다. 100개의 수제 레벨, 부드러운 60fps — 완전 무료.",
+    "statLevels": "레벨",
+    "statMechanics": "미니게임",
+    "statThemes": "테마",
+    "statFree": "무료",
+    "mechanicsTitle": "10개의 미니게임",
+    "mechanicsHeadline": "10 레벨마다 새로운 도전",
+    "mechanicsSub": "각 메커니즘은 독특합니다 — 100개의 레벨을 모두 마스터하세요.",
+    "appStoreSoon": "출시 예정",
+    "mechanics": {
+      "tap": { "name": "컵 채우기", "desc": "Stop the faucet at exactly the right moment. Don't spill a drop!" },
+      "fruitcut": { "name": "과일 자르기", "desc": "Slice the watermelon perfectly in half with one precise tap." },
+      "balloon": { "name": "풍선 불기", "desc": "Pump the balloon as big as possible — without popping it." },
+      "pizza": { "name": "피자 굽기", "desc": "Pull the pizza from the oven at the perfect golden moment." },
+      "princess": { "name": "공주 구출", "desc": "Sneak past the sleeping bear without waking it." },
+      "scissors": { "name": "머리카락 자르기", "desc": "Snip at exactly the right moment to nail the perfect cut." },
+      "fish": { "name": "물고기 잡기", "desc": "Reel in the fish at just the right moment — not too early, not too late." },
+      "boomerang": { "name": "부메랑 잡기", "desc": "Catch it just as it returns to your hand." },
+      "bag": { "name": "가방 훔치기", "desc": "Grab grandpa's bag without making a sound." },
+      "crossy": { "name": "길 건너기", "desc": "Time your crossing perfectly to avoid getting hit." }
+    }
+  }
+,
+  "privacy": { "title": "개인정보 처리방침", "lastUpdated": "최종 업데이트", "metaDesc": "Tion Play의 TapStop 개인정보 처리방침입니다." }
+}

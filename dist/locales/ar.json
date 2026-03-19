@@ -1,0 +1,45 @@
+﻿{
+  "nav": { "home": "الرئيسية", "games": "الألعاب", "about": "من نحن", "blog": "المدونة", "contact": "اتصل بنا" },
+  "hero": { "tagline": "الألعاب فن.", "subtitle": "نصنع ألعاب موبايل دقيقة — سهلة التعلم، صعبة الإتقان، ومستحيلة الترك.", "cta": "اكتشف TapStop", "ctaSecondary": "اقرأ مدونتنا" },
+  "manifesto": { "title": "فلسفتنا", "craft": { "title": "الحرفية", "desc": "كل بكسل، كل رسوم متحركة، كل مؤثر صوتي مدروس بعناية. نحن مهووسون بالتفاصيل التي يشعر بها اللاعبون دون أن يلاحظوها." }, "joy": { "title": "الفرح", "desc": "يجب أن تجعلك الألعاب تبتسم، حتى عندما تتحداك. نصمم من أجل البهجة." }, "precision": { "title": "الدقة", "desc": "تحكم محكم. نوافذ توقيت مثالية. ردود فعل مُرضية." } },
+  "featuredGame": { "title": "لعبتنا الأحدث", "badge": "متاحة على Google Play", "cta": "عرض تفاصيل اللعبة", "download": "تحميل مجاني" },
+  "process": { "title": "كيف نصنع الألعاب", "subtitle": "من شرارة فكرة إلى منتج مصقول بين يديك", "steps": { "idea": { "title": "الفكرة", "desc": "كل شيء يبدأ بشعور — ميكانيكا تولّد الفرح." }, "design": { "title": "التصميم", "desc": "اللغة البصرية ولوحة الصوت وتدفقات UX تتحد لخلق عالم متسق." }, "build": { "title": "البناء", "desc": "Flutter يضفي الحياة على تصاميمنا بحركات 60 إطاراً في الثانية." }, "polish": { "title": "الصقل", "desc": "عشرات التكرارات تُصقل كل تفصيلة حتى تبدو اللعبة حتمية." }, "launch": { "title": "الإطلاق", "desc": "نطلق، نستمع للاعبين، ونواصل التحسين." } } },
+  "blogPreview": { "title": "من الاستوديو", "subtitle": "أفكار حول تطوير الألعاب والتصميم ورحلة المستقل", "readMore": "قراءة المقال", "viewAll": "عرض كل المقالات" },
+  "contactCta": { "title": "لديك فكرة؟ دعنا نتحدث.", "subtitle": "شراكة، صحافة، أو مجرد تحية — يسعدنا سماعك.", "cta": "تواصل معنا" },
+  "about": { "pageTitle": "عن Tion Play", "storyTitle": "القصة", "story1": "وُلد Tion Play في صيف 2023 في إسطنبول، تركيا. قرّر فاتح أيتار، مطور برمجيات بشغف مدى الحياة للألعاب، أن يتوقف عن الحلم ويبدأ في البناء.", "story2": "جاء اسم الاستوديو من ملهمة غير متوقعة: قطة فاتح، Tion. فضولية، دقيقة، ولا يمكن تجاهلها.", "story3": "العمل من مكتب منزلي في إسطنبول، أنشأ Tion Play ألعاباً تحتفي بإشباع التوقيت المثالي.", "missionTitle": "مهمتنا", "mission": "صنع ألعاب تشعر كأنها فن — متاحة للجميع، ومُرضية الإتقان.", "valuesTitle": "ما نؤمن به", "teamTitle": "الاستوديو", "teamMember": { "name": "فاتح أيتار", "role": "المؤسس والمطور المستقل", "bio": "مطور، مصمم، مُنسّق صوت، مُختبر، مسوّق. فاتح يفعل كل شيء." }, "statsTitle": "بالأرقام", "stats": { "games": { "value": "1", "label": "لعبة منشورة" }, "levels": { "value": "100", "label": "مستوى مصمم" }, "themes": { "value": "10", "label": "ثيمات فريدة" }, "cat": { "value": "1", "label": "قطة في المكتب 🐱" } } },
+  "games": { "pageTitle": "ألعابنا", "subtitle": "مبنية بدقة، مصممة للفرح", "filterAll": "كل الألعاب", "filterReleased": "المنشورة", "filterComing": "قريباً", "comingSoon": "قريباً", "released": "منشورة", "download": "تحميل على Google Play", "details": "عرض التفاصيل", "features": "الميزات" },
+  "gameDetail": { "download": "تحميل مجاني على Google Play", "privacyPolicy": "سياسة الخصوصية", "screenshots": "لقطات الشاشة", "themes": "ثيمات اللعبة", "levels": "100 مستوى", "themes10": "10 ثيمات فريدة", "free": "العب مجاناً" },
+  "blog": { "pageTitle": "المدونة", "subtitle": "رؤى حول تطوير الألعاب والتصميم ورحلة المستقل", "searchPlaceholder": "البحث في المقالات...", "filterAll": "الكل", "readMore": "قراءة المزيد", "minRead": "دقيقة قراءة", "by": "بقلم", "noResults": "لم يتم العثور على مقالات. جرب بحثاً مختلفاً.", "categories": { "all": "الكل", "mobileGames": "ألعاب الموبايل", "gameDev": "تطوير الألعاب", "flutter": "Flutter", "indieDev": "المطور المستقل", "gameDesign": "تصميم الألعاب", "mobileIndustry": "الصناعة المتنقلة" } },
+  "blogPost": { "backToBlog": "← العودة للمدونة", "share": "شارك هذا المقال", "shareTwitter": "شارك على X", "shareLinkedin": "شارك على LinkedIn", "copyLink": "نسخ الرابط", "copied": "تم النسخ!", "relatedPosts": "مقالات ذات صلة", "prevPost": "← السابق", "nextPost": "التالي →" },
+  "contact": { "pageTitle": "اتصل بنا", "subtitle": "يسعدنا سماعك", "name": "اسمك", "email": "عنوان البريد الإلكتروني", "subject": "الموضوع", "message": "رسالتك", "send": "إرسال الرسالة", "sending": "جارٍ الإرسال...", "success": "تم إرسال الرسالة! سنرد عليك قريباً.", "error": "حدث خطأ ما. يرجى المحاولة مرة أخرى.", "emailInvalid": "يرجى إدخال عنوان بريد إلكتروني صحيح.", "captchaLabel": "تمرين الدماغ: {{a}} + {{b}} =", "captchaError": "إجابة خاطئة. يرجى المحاولة مرة أخرى.", "subjects": { "general": "استفسار عام", "partnership": "شراكة", "press": "صحافة وإعلام", "other": "أخرى" }, "info": { "location": "إسطنبول، تركيا", "email": "hello@tionplay.com", "social": "ابحث عنا عبر الإنترنت" }, "orEmail": "أو راسلنا مباشرة:" },
+  "footer": { "tagline": "صنع ألعاب من إسطنبول بحب.", "quickLinks": "روابط سريعة", "legal": "القانونية", "privacyPolicy": "سياسة الخصوصية", "terms": "شروط الخدمة", "copyright": "© 2026 Tion Play. جميع الحقوق محفوظة.", "madeWith": "صُنع بـ ☕ و 🐱 في إسطنبول" },
+  "notFound": { "title": "المستوى غير موجود!", "subtitle": "يبدو أن هذه الصفحة غير موجودة. ربما هي مستوى سري؟", "cta": "العودة للرئيسية" },
+  "langSwitcher": { "label": "اللغة" }
+,
+  "tapstop": {
+    "tagline": "اضغط في اللحظة المثالية — عبر 10 تحديات مختلفة!",
+    "description": "TapStop! لعبة توقيت دقيق بـ 10 ميكانيكا ألعاب مصغرة مختلفة تماماً. 100 مستوى مصنوع يدوياً، 60fps سلسة — ومجانية تماماً.",
+    "statLevels": "مستويات",
+    "statMechanics": "ألعاب صغيرة",
+    "statThemes": "ثيمات",
+    "statFree": "مجاني",
+    "mechanicsTitle": "10 ألعاب صغيرة",
+    "mechanicsHeadline": "تحدٍّ جديد كل 10 مستويات",
+    "mechanicsSub": "كل ميكانيكا فريدة — أتقن جميع المستويات الـ 100.",
+    "appStoreSoon": "قريباً",
+    "mechanics": {
+      "tap": { "name": "ملء الكأس", "desc": "Stop the faucet at exactly the right moment. Don't spill a drop!" },
+      "fruitcut": { "name": "قطع الفاكهة", "desc": "Slice the watermelon perfectly in half with one precise tap." },
+      "balloon": { "name": "نفخ البالون", "desc": "Pump the balloon as big as possible — without popping it." },
+      "pizza": { "name": "خبز البيتزا", "desc": "Pull the pizza from the oven at the perfect golden moment." },
+      "princess": { "name": "إنقاذ الأميرة", "desc": "Sneak past the sleeping bear without waking it." },
+      "scissors": { "name": "قص الشعر", "desc": "Snip at exactly the right moment to nail the perfect cut." },
+      "fish": { "name": "صيد السمك", "desc": "Reel in the fish at just the right moment — not too early, not too late." },
+      "boomerang": { "name": "التقاط البوميرانج", "desc": "Catch it just as it returns to your hand." },
+      "bag": { "name": "سرقة الحقيبة", "desc": "Grab grandpa's bag without making a sound." },
+      "crossy": { "name": "عبور الطريق", "desc": "Time your crossing perfectly to avoid getting hit." }
+    }
+  }
+,
+  "privacy": { "title": "سياسة الخصوصية", "lastUpdated": "آخر تحديث", "metaDesc": "سياسة الخصوصية لتطبيق TapStop من Tion Play." }
+}

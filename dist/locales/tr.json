@@ -1,0 +1,211 @@
+﻿{
+  "nav": {
+    "home": "Ana Sayfa",
+    "games": "Oyunlar",
+    "about": "Hakkımızda",
+    "blog": "Blog",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "tagline": "Oyun yapmak bir sanattır.",
+    "subtitle": "Öğrenmesi kolay, ustalaşması zor, bırakması imkânsız hassas mobil oyunlar yapıyoruz.",
+    "cta": "TapStop'u Keşfet",
+    "ctaSecondary": "Blogumuzu Oku"
+  },
+  "manifesto": {
+    "title": "Felsefemiz",
+    "craft": {
+      "title": "Ustalık",
+      "desc": "Her piksel, her animasyon, her ses efekti düşünülmüştür. Oyuncuların hissettiği ama hiç fark etmediği ayrıntılara takıntılıyız."
+    },
+    "joy": {
+      "title": "Sevinç",
+      "desc": "Oyunlar sizi sorgulasalar bile gülümsemelidir. Neşe için tasarlıyoruz — sizi geri getirecek küçük anlar."
+    },
+    "precision": {
+      "title": "Hassasiyet",
+      "desc": "Sıkı kontroller. Mükemmel zamanlama pencereleri. Tatmin edici geri bildirim. Oyunlarımız beceriyi ödüllendirir."
+    }
+  },
+  "featuredGame": {
+    "title": "Son Oyunumuz",
+    "badge": "Google Play'de Şimdi",
+    "cta": "Oyun Detaylarını Gör",
+    "download": "Ücretsiz İndir"
+  },
+  "process": {
+    "title": "Oyunları Nasıl Yapıyoruz",
+    "subtitle": "Bir fikir kıvılcımından elinizde cilalı bir ürüne kadar",
+    "steps": {
+      "idea": { "title": "Fikir", "desc": "Her şey bir hisle başlar — neşe kıvılcımı uyandıran bir mekanik. Hızlıca taslak çizer, prototip yapar ve test ederiz." },
+      "design": { "title": "Tasarım", "desc": "Görsel dil, ses paleti ve UX akışları tutarlı bir dünya oluşturmak için bir araya gelir." },
+      "build": { "title": "Geliştirme", "desc": "Flutter, tasarımlarımızı 60fps animasyonlar ve sıkı, duyarlı kontrollerle hayata geçirir." },
+      "polish": { "title": "Cilalama", "desc": "Gizli malzeme. Düzinelerce iterasyon, oyunun kaçınılmaz hissettirene kadar her kenarı rafine eder." },
+      "launch": { "title": "Yayın", "desc": "Yayınlarız, oyunculara kulak veririz ve iyileştirmeye devam ederiz. Bir oyun hiçbir zaman gerçekten bitmez." }
+    }
+  },
+  "blogPreview": {
+    "title": "Stüdyodan",
+    "subtitle": "Oyun geliştirme, tasarım ve bağımsız yolculuk üzerine düşünceler",
+    "readMore": "Makaleyi Oku",
+    "viewAll": "Tüm Yazıları Gör"
+  },
+  "contactCta": {
+    "title": "Bir fikriniz mi var? Konuşalım.",
+    "subtitle": "Ortaklık, basın veya sadece merhaba demek için — sizi duymaktan mutluluk duyarız.",
+    "cta": "İletişime Geç"
+  },
+  "about": {
+    "pageTitle": "Tion Play Hakkında",
+    "storyTitle": "Hikaye",
+    "story1": "Tion Play, 2023 yazında İstanbul, Türkiye'de doğdu. Oyunlara hayatı boyunca tutkuyla bağlı bir yazılım geliştiricisi olan Fatih Aytar, hayal etmeyi bırakıp inşa etmeye karar verdi.",
+    "story2": "Stüdyonun adı beklenmedik bir ilham kaynağından geliyor: Fatih'in kedisi Tion. Meraklı, hassas ve görmezden gelinmesi imkânsız — hassas bir oyun stüdyosu için mükemmel bir ruh hayvanı.",
+    "story3": "İstanbul'daki ev ofisinden çalışırken, Tion zaman zaman klavyenin üzerinden geçerken, Tion Play mükemmel zamanlamanın tatminini kutlayan oyunlar yarattı.",
+    "missionTitle": "Misyonumuz",
+    "mission": "Sanat gibi hissettiren oyunlar yapmak — herkese açık, ustalaşması derin tatmin edici ve zamanınıza değer.",
+    "valuesTitle": "Neyin Savunucusuyuz",
+    "teamTitle": "Stüdyo",
+    "teamMember": {
+      "name": "Fatih Aytar",
+      "role": "Kurucu & Solo Geliştirici",
+      "bio": "Geliştirici, tasarımcı, ses küratörü, test uzmanı, pazarlamacı. Fatih her şeyi yapar. Çay, bağımsız oyun podcastleri ve arada bir kedi onayıyla beslenir."
+    },
+    "statsTitle": "Rakamlarda",
+    "stats": {
+      "games": { "value": "1", "label": "Yayınlanan Oyun" },
+      "levels": { "value": "100", "label": "Tasarlanan Seviye" },
+      "themes": { "value": "10", "label": "Benzersiz Tema" },
+      "cat": { "value": "1", "label": "Ofisteki Kedi 🐱" }
+    }
+  },
+  "games": {
+    "pageTitle": "Oyunlarımız",
+    "subtitle": "Hassasiyetle üretilmiş, neşe için tasarlanmış",
+    "filterAll": "Tüm Oyunlar",
+    "filterReleased": "Yayınlandı",
+    "filterComing": "Yakında",
+    "comingSoon": "Yakında",
+    "released": "Yayında",
+    "download": "Google Play'de İndir",
+    "details": "Detayları Gör",
+    "features": "Özellikler"
+  },
+  "gameDetail": {
+    "download": "Google Play'de Ücretsiz İndir",
+    "privacyPolicy": "Gizlilik Politikası",
+    "screenshots": "Ekran Görüntüleri",
+    "themes": "Oyun Temaları",
+    "levels": "100 Seviye",
+    "themes10": "10 Benzersiz Tema",
+    "free": "Ücretsiz Oynayın"
+  },
+  "blog": {
+    "pageTitle": "Blog",
+    "subtitle": "Oyun geliştirme, tasarım ve bağımsız yolculuk üzerine içgörüler",
+    "searchPlaceholder": "Makalelerde ara...",
+    "filterAll": "Tümü",
+    "readMore": "Daha Fazla Oku",
+    "minRead": "dk okuma",
+    "by": "yazan",
+    "noResults": "Makale bulunamadı. Farklı bir arama veya kategori deneyin.",
+    "categories": {
+      "all": "Tümü",
+      "mobileGames": "Mobil Oyunlar",
+      "gameDev": "Oyun Geliştirme",
+      "flutter": "Flutter",
+      "indieDev": "Bağımsız Geliştirici",
+      "gameDesign": "Oyun Tasarımı",
+      "mobileIndustry": "Mobil Endüstri"
+    }
+  },
+  "blogPost": {
+    "backToBlog": "← Bloğa Dön",
+    "share": "Bu makaleyi paylaş",
+    "shareTwitter": "X'te Paylaş",
+    "shareLinkedin": "LinkedIn'de Paylaş",
+    "copyLink": "Bağlantıyı Kopyala",
+    "copied": "Kopyalandı!",
+    "relatedPosts": "İlgili Yazılar",
+    "prevPost": "← Önceki",
+    "nextPost": "Sonraki →"
+  },
+  "contact": {
+    "pageTitle": "İletişim",
+    "subtitle": "Sizi duymaktan memnuniyet duyarız",
+    "name": "Adınız",
+    "email": "E-posta Adresi",
+    "subject": "Konu",
+    "message": "Mesajınız",
+    "send": "Mesaj Gönder",
+    "sending": "Gönderiliyor...",
+    "success": "Mesaj gönderildi! En kısa sürede size döneceğiz.",
+    "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+    "emailInvalid": "Lütfen geçerli bir e-posta adresi girin.",
+    "captchaLabel": "Beyin Jimnastiği: {{a}} + {{b}} =",
+    "captchaError": "Yanlış cevap. Lütfen tekrar deneyin.",
+    "orEmail": "Ya da doğrudan e-posta gönderin:",
+    "subjects": {
+      "general": "Genel Soru",
+      "partnership": "Ortaklık",
+      "press": "Basın & Medya",
+      "other": "Diğer"
+    },
+    "info": {
+      "location": "İstanbul, Türkiye",
+      "email": "info@tionplay.com",
+      "social": "Bizi Çevrimiçi Bulun"
+    }
+  },
+  "footer": {
+    "tagline": "İstanbul'dan sevgiyle oyunlar yapıyoruz.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "legal": "Yasal",
+    "privacyPolicy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "copyright": "© 2026 Tion Play. Tüm hakları saklıdır.",
+    "madeWith": "İstanbul'da ☕ ve 🐱 ile yapıldı"
+  },
+  "notFound": {
+    "title": "Seviye Bulunamadı!",
+    "subtitle": "Bu sayfa mevcut değil gibi görünüyor. Belki gizli bir seviyedir?",
+    "cta": "Ana Sayfaya Dön"
+  },
+  "langSwitcher": {
+    "label": "Dil"
+  },
+  "tapstop": {
+    "tagline": "Tam doğru anda dokun — 10 farklı meydan okumada!",
+    "description": "TapStop, 10 tamamen farklı mini-oyun mekaniğine sahip hassas zamanlama oyunudur. Her seviye reflekslerinizi yeni bir şekilde sınıyor: bardak doldur, meyve kes, balon şişir, prensesi uyuyan ayıdan kurtar ve çok daha fazlası. 100 elle tasarlanmış seviye, 6 görsel tema, 60fps akıcı oynanış — ve tamamen ücretsiz.",
+    "statLevels": "Seviye",
+    "statMechanics": "Mini-Oyun",
+    "statThemes": "Tema",
+    "statFree": "Ücretsiz",
+    "mechanicsTitle": "10 Mini-Oyun",
+    "mechanicsHeadline": "Her 10 seviyede yeni bir meydan okuma",
+    "mechanicsSub": "Her mekanik tamamen farklı — hepsinde ustalaş ve 100 seviyeyi fethet.",
+    "themesTitle": "6 Görsel Tema",
+    "appStoreSoon": "Yakında",
+    "mechanics": {
+      "tap":       { "name": "Bardak Doldur",    "desc": "Musluğu tam doğru anda durdur. Tek damla taşırma!" },
+      "fruitcut":  { "name": "Meyve Kes",        "desc": "Karpuzu tek hamlede tam ortasından kes." },
+      "balloon":   { "name": "Balon Şişir",      "desc": "Balonu patlamaması için olabildiğince büyüt." },
+      "pizza":     { "name": "Pizza Pişir",      "desc": "Pizzayı tam altın sarısı anda fırından çıkar." },
+      "princess":  { "name": "Prensesi Kurtar",  "desc": "Uyuyan ayıyı uyandırmadan prensesti kaçır." },
+      "scissors":  { "name": "Saç Kes",          "desc": "Tam doğru anda makasla mükemmel kesimi gerçekleştir." },
+      "fish":      { "name": "Balık Tut",        "desc": "Oltayı tam zamanında çek — ne erken ne geç." },
+      "boomerang": { "name": "Bumerang Yakala",  "desc": "Dönerken tam eline döndüğü anda yakala." },
+      "bag":       { "name": "Çantayı Kap",      "desc": "Dedeyi uyandırmadan çantasını sessizce al." },
+      "crossy":    { "name": "Karşıya Geç",      "desc": "Araçlardan kaçınarak tam zamanında karşıya geç." }
+    },
+    "themes": {
+      "water":  "Su",
+      "fire":   "Ateş",
+      "nature": "Doğa",
+      "sunset": "Gün Batımı",
+      "ice":    "Buz",
+      "lava":   "Lav"
+    }
+  }
+,
+  "privacy": { "title": "Gizlilik Politikası", "lastUpdated": "Son güncelleme", "metaDesc": "Tion Play tarafından yayımlanan TapStop uygulamasının Gizlilik Politikası." }
+}

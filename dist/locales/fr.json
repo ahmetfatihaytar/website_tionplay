@@ -1,0 +1,45 @@
+﻿{
+  "nav": { "home": "Accueil", "games": "Jeux", "about": "À propos", "blog": "Blog", "contact": "Contact" },
+  "hero": { "tagline": "Les jeux sont un art.", "subtitle": "Nous créons des jeux mobiles de précision, simples à apprendre, difficiles à maîtriser et impossibles à poser.", "cta": "Découvrir TapStop", "ctaSecondary": "Lire notre blog" },
+  "manifesto": { "title": "Notre philosophie", "craft": { "title": "Artisanat", "desc": "Chaque pixel, chaque animation, chaque effet sonore est pensé. Nous sommes obsédés par les détails que les joueurs ressentent sans jamais les remarquer." }, "joy": { "title": "Joie", "desc": "Les jeux devraient vous faire sourire, même quand ils vous challengent. Nous concevons pour le plaisir." }, "precision": { "title": "Précision", "desc": "Contrôles serrés. Fenêtres de timing parfaites. Retours satisfaisants. Nos jeux récompensent la compétence." } },
+  "featuredGame": { "title": "Notre dernier jeu", "badge": "Maintenant sur Google Play", "cta": "Voir les détails du jeu", "download": "Télécharger gratuitement" },
+  "process": { "title": "Comment nous créons des jeux", "subtitle": "D'une étincelle d'idée à un produit soigné entre vos mains", "steps": { "idea": { "title": "Idée", "desc": "Tout commence par une sensation — une mécanique qui suscite la joie." }, "design": { "title": "Design", "desc": "Le langage visuel, la palette sonore et les flux UX s'assemblent pour créer un monde cohérent." }, "build": { "title": "Construction", "desc": "Flutter donne vie à nos designs avec des animations fluides à 60fps." }, "polish": { "title": "Polissage", "desc": "Des dizaines d'itérations affinent chaque aspect jusqu'à ce que le jeu soit parfait." }, "launch": { "title": "Lancement", "desc": "Nous lançons, écoutons les joueurs et continuons à améliorer." } } },
+  "blogPreview": { "title": "Du studio", "subtitle": "Réflexions sur le développement de jeux, le design et le parcours indie", "readMore": "Lire l'article", "viewAll": "Voir tous les articles" },
+  "contactCta": { "title": "Vous avez une idée ? Parlons-en.", "subtitle": "Partenariat, presse ou simplement bonjour — nous serions ravis de vous entendre.", "cta": "Entrer en contact" },
+  "about": { "pageTitle": "À propos de Tion Play", "storyTitle": "L'histoire", "story1": "Tion Play est né à l'été 2023 à Istanbul, en Turquie. Fatih Aytar, développeur logiciel passionné de jeux toute sa vie, a décidé d'arrêter de rêver et de commencer à créer.", "story2": "Le nom du studio vient d'une muse inattendue : Tion, le chat de Fatih. Curieux, précis et impossible à ignorer.", "story3": "Travaillant depuis un bureau à domicile à Istanbul, Tion Play a créé des jeux qui célèbrent la satisfaction d'un timing parfait.", "missionTitle": "Notre mission", "mission": "Créer des jeux qui ressemblent à de l'art — accessibles à tous, profondément satisfaisants à maîtriser.", "valuesTitle": "Ce que nous défendons", "teamTitle": "Le studio", "teamMember": { "name": "Fatih Aytar", "role": "Fondateur & Développeur solo", "bio": "Développeur, designer, curateur sonore, testeur, marketeur. Fatih fait tout." }, "statsTitle": "En chiffres", "stats": { "games": { "value": "1", "label": "Jeu publié" }, "levels": { "value": "100", "label": "Niveaux conçus" }, "themes": { "value": "10", "label": "Thèmes uniques" }, "cat": { "value": "1", "label": "Chat au bureau 🐱" } } },
+  "games": { "pageTitle": "Nos jeux", "subtitle": "Créés avec précision, conçus pour la joie", "filterAll": "Tous les jeux", "filterReleased": "Publiés", "filterComing": "À venir", "comingSoon": "À venir", "released": "Publié", "download": "Télécharger sur Google Play", "details": "Voir les détails", "features": "Fonctionnalités" },
+  "gameDetail": { "download": "Télécharger gratuitement sur Google Play", "privacyPolicy": "Politique de confidentialité", "screenshots": "Captures d'écran", "themes": "Thèmes du jeu", "levels": "100 niveaux", "themes10": "10 thèmes uniques", "free": "Gratuit à jouer" },
+  "blog": { "pageTitle": "Blog", "subtitle": "Aperçus sur le développement, le design et le parcours indie", "searchPlaceholder": "Rechercher des articles...", "filterAll": "Tous", "readMore": "Lire plus", "minRead": "min de lecture", "by": "par", "noResults": "Aucun article trouvé. Essayez une autre recherche.", "categories": { "all": "Tous", "mobileGames": "Jeux mobiles", "gameDev": "Développement de jeux", "flutter": "Flutter", "indieDev": "Développeur indie", "gameDesign": "Game design", "mobileIndustry": "Industrie mobile" } },
+  "blogPost": { "backToBlog": "← Retour au blog", "share": "Partager cet article", "shareTwitter": "Partager sur X", "shareLinkedin": "Partager sur LinkedIn", "copyLink": "Copier le lien", "copied": "Copié !", "relatedPosts": "Articles similaires", "prevPost": "← Précédent", "nextPost": "Suivant →" },
+  "contact": { "pageTitle": "Contact", "subtitle": "Nous serions ravis de vous entendre", "name": "Votre nom", "email": "Adresse e-mail", "subject": "Sujet", "message": "Votre message", "send": "Envoyer le message", "sending": "Envoi en cours...", "success": "Message envoyé ! Nous vous répondrons bientôt.", "error": "Quelque chose s'est mal passé. Veuillez réessayer.", "emailInvalid": "Veuillez entrer une adresse e-mail valide.", "captchaLabel": "Gym cérébrale : {{a}} + {{b}} =", "captchaError": "Réponse incorrecte. Veuillez réessayer.", "subjects": { "general": "Demande générale", "partnership": "Partenariat", "press": "Presse et médias", "other": "Autre" }, "info": { "location": "Istanbul, Turquie", "email": "hello@tionplay.com", "social": "Retrouvez-nous en ligne" }, "orEmail": "Ou envoyez-nous un e-mail directement :" },
+  "footer": { "tagline": "Des jeux depuis Istanbul avec amour.", "quickLinks": "Liens rapides", "legal": "Mentions légales", "privacyPolicy": "Politique de confidentialité", "terms": "Conditions d'utilisation", "copyright": "© 2026 Tion Play. Tous droits réservés.", "madeWith": "Fait avec ☕ et 🐱 à Istanbul" },
+  "notFound": { "title": "Niveau introuvable !", "subtitle": "Cette page semble ne pas exister. Peut-être est-ce un niveau secret ?", "cta": "Retour à l'accueil" },
+  "langSwitcher": { "label": "Langue" }
+,
+  "tapstop": {
+    "tagline": "Tapez au bon moment — sur 10 défis différents !",
+    "description": "TapStop! est un jeu de timing de précision avec 10 mécaniques de mini-jeux complètement différentes. 100 niveaux faits à la main, 60fps fluide — et entièrement gratuit.",
+    "statLevels": "Niveaux",
+    "statMechanics": "Mini-Jeux",
+    "statThemes": "Thèmes",
+    "statFree": "Gratuit",
+    "mechanicsTitle": "10 Mini-Jeux",
+    "mechanicsHeadline": "Un nouveau défi tous les 10 niveaux",
+    "mechanicsSub": "Chaque mécanique est unique — maîtrisez les 100 niveaux.",
+    "appStoreSoon": "Bientôt",
+    "mechanics": {
+      "tap": { "name": "Remplir le verre", "desc": "Stop the faucet at exactly the right moment. Don't spill a drop!" },
+      "fruitcut": { "name": "Couper le fruit", "desc": "Slice the watermelon perfectly in half with one precise tap." },
+      "balloon": { "name": "Gonfler le ballon", "desc": "Pump the balloon as big as possible — without popping it." },
+      "pizza": { "name": "Cuire la pizza", "desc": "Pull the pizza from the oven at the perfect golden moment." },
+      "princess": { "name": "Sauver la princesse", "desc": "Sneak past the sleeping bear without waking it." },
+      "scissors": { "name": "Couper les cheveux", "desc": "Snip at exactly the right moment to nail the perfect cut." },
+      "fish": { "name": "Attraper le poisson", "desc": "Reel in the fish at just the right moment — not too early, not too late." },
+      "boomerang": { "name": "Attraper le boomerang", "desc": "Catch it just as it returns to your hand." },
+      "bag": { "name": "Voler le sac", "desc": "Grab grandpa's bag without making a sound." },
+      "crossy": { "name": "Traverser la route", "desc": "Time your crossing perfectly to avoid getting hit." }
+    }
+  }
+,
+  "privacy": { "title": "Politique de confidentialité", "lastUpdated": "Dernière mise à jour", "metaDesc": "Politique de confidentialité de TapStop par Tion Play." }
+}
