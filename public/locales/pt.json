@@ -1,0 +1,45 @@
+﻿{
+  "nav": { "home": "Início", "games": "Jogos", "about": "Sobre", "blog": "Blog", "contact": "Contato" },
+  "hero": { "tagline": "Jogos são arte.", "subtitle": "Criamos jogos móveis de precisão, fáceis de aprender, difíceis de dominar e impossíveis de largar.", "cta": "Descobrir TapStop", "ctaSecondary": "Ler nosso blog" },
+  "manifesto": { "title": "Nossa filosofia", "craft": { "title": "Artesanato", "desc": "Cada pixel, cada animação, cada efeito sonoro é considerado. Somos obcecados com detalhes que os jogadores sentem mas nunca notam." }, "joy": { "title": "Alegria", "desc": "Jogos devem fazer você sorrir, mesmo quando te desafiam. Projetamos para o deleite." }, "precision": { "title": "Precisão", "desc": "Controles precisos. Janelas de timing perfeitas. Feedback satisfatório." } },
+  "featuredGame": { "title": "Nosso último jogo", "badge": "Agora no Google Play", "cta": "Ver detalhes do jogo", "download": "Baixar grátis" },
+  "process": { "title": "Como construímos jogos", "subtitle": "De uma centelha de ideia a um produto polido nas suas mãos", "steps": { "idea": { "title": "Ideia", "desc": "Tudo começa com uma sensação — uma mecânica que desperta alegria." }, "design": { "title": "Design", "desc": "Linguagem visual, paleta sonora e fluxos UX se unem para criar um mundo coeso." }, "build": { "title": "Construção", "desc": "Flutter dá vida aos nossos designs com animações suaves a 60fps." }, "polish": { "title": "Polimento", "desc": "Dezenas de iterações refinam cada aspecto até o jogo parecer inevitável." }, "launch": { "title": "Lançamento", "desc": "Lançamos, ouvimos os jogadores e continuamos melhorando." } } },
+  "blogPreview": { "title": "Do estúdio", "subtitle": "Pensamentos sobre desenvolvimento, design e a jornada indie", "readMore": "Ler artigo", "viewAll": "Ver todos os posts" },
+  "contactCta": { "title": "Tem uma ideia? Vamos conversar.", "subtitle": "Parceria, imprensa ou apenas dizer olá — adoraríamos te ouvir.", "cta": "Entrar em contato" },
+  "about": { "pageTitle": "Sobre a Tion Play", "storyTitle": "A história", "story1": "A Tion Play nasceu no verão de 2023 em Istambul, Turquia. Fatih Aytar, desenvolvedor de software com paixão pelos jogos a vida toda, decidiu parar de sonhar e começar a construir.", "story2": "O nome do estúdio vem de uma musa inesperada: Tion, o gato de Fatih. Curioso, preciso e impossível de ignorar.", "story3": "Trabalhando de um escritório em casa em Istambul, a Tion Play criou jogos que celebram a satisfação do timing perfeito.", "missionTitle": "Nossa missão", "mission": "Fazer jogos que se sintam como arte — acessíveis a todos e profundamente satisfatórios de dominar.", "valuesTitle": "O que defendemos", "teamTitle": "O estúdio", "teamMember": { "name": "Fatih Aytar", "role": "Fundador & Desenvolvedor Solo", "bio": "Desenvolvedor, designer, curador de som, testador, marqueteiro. Fatih faz tudo." }, "statsTitle": "Em números", "stats": { "games": { "value": "1", "label": "Jogo publicado" }, "levels": { "value": "100", "label": "Níveis projetados" }, "themes": { "value": "10", "label": "Temas únicos" }, "cat": { "value": "1", "label": "Gato no escritório 🐱" } } },
+  "games": { "pageTitle": "Nossos jogos", "subtitle": "Construídos com precisão, projetados para alegria", "filterAll": "Todos os jogos", "filterReleased": "Lançados", "filterComing": "Em breve", "comingSoon": "Em breve", "released": "Lançado", "download": "Baixar no Google Play", "details": "Ver detalhes", "features": "Recursos" },
+  "gameDetail": { "download": "Baixar grátis no Google Play", "privacyPolicy": "Política de privacidade", "screenshots": "Capturas de tela", "themes": "Temas do jogo", "levels": "100 níveis", "themes10": "10 temas únicos", "free": "Grátis para jogar" },
+  "blog": { "pageTitle": "Blog", "subtitle": "Insights sobre desenvolvimento, design e a jornada indie", "searchPlaceholder": "Buscar artigos...", "filterAll": "Todos", "readMore": "Ler mais", "minRead": "min de leitura", "by": "por", "noResults": "Nenhum artigo encontrado. Tente uma busca diferente.", "categories": { "all": "Todos", "mobileGames": "Jogos móveis", "gameDev": "Desenvolvimento", "flutter": "Flutter", "indieDev": "Dev indie", "gameDesign": "Design de jogos", "mobileIndustry": "Indústria mobile" } },
+  "blogPost": { "backToBlog": "← Voltar ao blog", "share": "Compartilhar este artigo", "shareTwitter": "Compartilhar no X", "shareLinkedin": "Compartilhar no LinkedIn", "copyLink": "Copiar link", "copied": "Copiado!", "relatedPosts": "Posts relacionados", "prevPost": "← Anterior", "nextPost": "Próximo →" },
+  "contact": { "pageTitle": "Contato", "subtitle": "Adoraríamos te ouvir", "name": "Seu nome", "email": "Endereço de e-mail", "subject": "Assunto", "message": "Sua mensagem", "send": "Enviar mensagem", "sending": "Enviando...", "success": "Mensagem enviada! Retornaremos em breve.", "error": "Algo deu errado. Por favor, tente novamente.", "emailInvalid": "Por favor, insira um endereço de e-mail válido.", "captchaLabel": "Ginástica mental: {{a}} + {{b}} =", "captchaError": "Resposta incorreta. Tente novamente.", "subjects": { "general": "Consulta geral", "partnership": "Parceria", "press": "Imprensa e mídia", "other": "Outro" }, "info": { "location": "Istambul, Turquia", "email": "hello@tionplay.com", "social": "Nos encontre online" }, "orEmail": "Ou envie-nos um e-mail diretamente:" },
+  "footer": { "tagline": "Fazendo jogos de Istambul com amor.", "quickLinks": "Links rápidos", "legal": "Legal", "privacyPolicy": "Política de privacidade", "terms": "Termos de serviço", "copyright": "© 2026 Tion Play. Todos os direitos reservados.", "madeWith": "Feito com ☕ e 🐱 em Istambul" },
+  "notFound": { "title": "Nível não encontrado!", "subtitle": "Parece que esta página não existe. Talvez seja uma fase secreta?", "cta": "Voltar ao início" },
+  "langSwitcher": { "label": "Idioma" }
+,
+  "tapstop": {
+    "tagline": "Toque no momento perfeito — em 10 desafios diferentes!",
+    "description": "TapStop! é um jogo de timing de precisão com 10 mecânicas de mini-jogos completamente diferentes. 100 níveis artesanais, 60fps suave — e completamente gratuito.",
+    "statLevels": "Níveis",
+    "statMechanics": "Mini-Jogos",
+    "statThemes": "Temas",
+    "statFree": "Grátis",
+    "mechanicsTitle": "10 Mini-Jogos",
+    "mechanicsHeadline": "Um novo desafio a cada 10 níveis",
+    "mechanicsSub": "Cada mecânica é única — domine todas para vencer os 100 níveis.",
+    "appStoreSoon": "Em breve",
+    "mechanics": {
+      "tap": { "name": "Encher o copo", "desc": "Stop the faucet at exactly the right moment. Don't spill a drop!" },
+      "fruitcut": { "name": "Cortar a fruta", "desc": "Slice the watermelon perfectly in half with one precise tap." },
+      "balloon": { "name": "Inflar o balão", "desc": "Pump the balloon as big as possible — without popping it." },
+      "pizza": { "name": "Assar a pizza", "desc": "Pull the pizza from the oven at the perfect golden moment." },
+      "princess": { "name": "Resgatar a princesa", "desc": "Sneak past the sleeping bear without waking it." },
+      "scissors": { "name": "Cortar o cabelo", "desc": "Snip at exactly the right moment to nail the perfect cut." },
+      "fish": { "name": "Pescar o peixe", "desc": "Reel in the fish at just the right moment — not too early, not too late." },
+      "boomerang": { "name": "Pegar o bumerangue", "desc": "Catch it just as it returns to your hand." },
+      "bag": { "name": "Roubar a bolsa", "desc": "Grab grandpa's bag without making a sound." },
+      "crossy": { "name": "Atravessar a rua", "desc": "Time your crossing perfectly to avoid getting hit." }
+    }
+  }
+,
+  "privacy": { "title": "Política de privacidade", "lastUpdated": "Última atualização", "metaDesc": "Política de privacidade do TapStop pela Tion Play." }
+}

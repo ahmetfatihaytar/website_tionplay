@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^netstat -ano \\| findstr \"LISTEN\" \\| findstr \"517\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
