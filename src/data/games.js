@@ -11,7 +11,7 @@ export const games = [
 With 100 hand-crafted levels spread across 10 stunning visual themes — from icy Arctic tundras to blazing Desert Suns — TapStop delivers a constantly fresh experience that rewards practice and punishes rush. Each theme introduces new visual personalities, color palettes, and ambient music, keeping your eyes and ears engaged long after your thumbs are tired.
 
 Built with Flutter for buttery-smooth 60fps performance, TapStop is fully offline, completely free, and contains no pay-to-win mechanics. Just you, the bar, and your reflexes.`,
-    googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.tionplay.tapstop',
+    googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.topstop.game',
     coverEmoji: '🎯',
     primaryColor: '#FF6B2B',
     bgColor: '#1A1108',

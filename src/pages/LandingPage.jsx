@@ -46,7 +46,9 @@ export default function LandingPage() {
   async function handleSubmit(e) {
     e.preventDefault()
     const newErrors = {}
+    if (!formData.name.trim() || formData.name.trim().length < 2) newErrors.name = t('contact.nameRequired')
     if (!EMAIL_RE.test(formData.email)) newErrors.email = t('contact.emailInvalid')
+    if (!formData.message.trim() || formData.message.trim().length < 10) newErrors.message = t('contact.messageRequired')
     if (parseInt(captchaInput, 10) !== captcha.answer) newErrors.captcha = t('contact.captchaError')
     if (Object.keys(newErrors).length) { setFieldErrors(newErrors); return; }
     setFieldErrors({})
@@ -88,7 +90,7 @@ export default function LandingPage() {
   return (
     <>
       <SEOHead
-        title="Tion Play — Indie Mobile Game Studio"
+        title={t('hero.tagline')}
         description={t('hero.subtitle')}
         lang={lang}
         jsonLd={{
@@ -111,7 +113,7 @@ export default function LandingPage() {
 
         <div className="lp-hero-split">
           <div className="lp-hero-left">
-            <img src="/logo.png" alt="Tion Play" className="lp-hero-logo" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Tion Play" className="lp-hero-logo" />
           </div>
 
           <div className="lp-hero-right">
@@ -128,13 +130,20 @@ export default function LandingPage() {
         </div>
       </section>
 
+      {/* Wave divider: hero (cream) → dark universe */}
+      <div className="lp-wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,45 C200,85 400,5 600,45 C800,85 1000,5 1200,45 C1320,65 1390,38 1440,45 L1440,90 L0,90 Z" fill="#0F0A22"/>
+        </svg>
+      </div>
+
       {/* TAPSTOP SHOWCASE */}
       <section id="game" className="lp-showcase">
         <div className="container">
           <div className="lp-showcase-inner">
             <div className="lp-showcase-icon-wrap">
               <div className="lp-showcase-icon-frame">
-                <img src="/topstop.png" alt="TapStop" className="lp-showcase-icon" />
+                <img src={`${import.meta.env.BASE_URL}topstop.png`} alt="TapStop" className="lp-showcase-icon" />
               </div>
               <div className="lp-showcase-badges">
                 <span className="lp-release-badge">🏆 {t('featuredGame.badge')}</span>
@@ -146,12 +155,6 @@ export default function LandingPage() {
               <p className="lp-showcase-tagline">{t('tapstop.tagline')}</p>
               <p className="lp-showcase-desc">{t('tapstop.description')}</p>
 
-              <div className="lp-genre-pills">
-                {tapstop?.genres.map((g) => <span key={g} className="lp-genre-pill">{g}</span>)}
-                <span className="lp-genre-pill">Flutter</span>
-                <span className="lp-genre-pill">Android</span>
-              </div>
-
               <div className="lp-store-row">
                 <a
                   href={tapstop?.googlePlayUrl}
@@ -159,6 +162,12 @@ export default function LandingPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Download TapStop on Google Play"
+                  onClick={(e) => {
+                    if (/android/i.test(navigator.userAgent)) {
+                      e.preventDefault()
+                      window.location.href = 'market://details?id=com.topstop.game'
+                    }
+                  }}
                 >
                   <span className="lp-store-icon">▶</span>
                   <span className="lp-store-text">
@@ -224,10 +233,13 @@ export default function LandingPage() {
                   <div className="form-group">
                     <label htmlFor="lp-name">{t('contact.name')} *</label>
                     <input
-                      id="lp-name" className="form-control" type="text" name="name"
+                      id="lp-name"
+                      className={`form-control${fieldErrors.name ? ' lp-input-error' : ''}`}
+                      type="text" name="name"
                       value={formData.name} onChange={handleChange}
                       placeholder="Alex Johnson" required minLength={2} maxLength={100} autoComplete="name"
                     />
+                    {fieldErrors.name && <span className="lp-field-error">{fieldErrors.name}</span>}
                   </div>
                   <div className="form-group">
                     <label htmlFor="lp-email">{t('contact.email')} *</label>
@@ -252,11 +264,14 @@ export default function LandingPage() {
                 <div className="form-group">
                   <label htmlFor="lp-message">{t('contact.message')} *</label>
                   <textarea
-                    id="lp-message" className="form-control" name="message"
+                    id="lp-message"
+                    className={`form-control${fieldErrors.message ? ' lp-input-error' : ''}`}
+                    name="message"
                     value={formData.message} onChange={handleChange}
                     placeholder="Tell us what's on your mind..."
                     required minLength={10} maxLength={5000} rows={5}
                   />
+                  {fieldErrors.message && <span className="lp-field-error">{fieldErrors.message}</span>}
                 </div>
 
                 <div className="form-group lp-captcha-group">
@@ -297,7 +312,7 @@ export default function LandingPage() {
         <div className="container">
           <div className="lp-footer-top">
             <div className="lp-footer-brand">
-              <img src="/logo.png" alt="Tion Play" className="lp-footer-logo" />
+              <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Tion Play" className="lp-footer-logo" />
             </div>
 
             <nav className="lp-footer-nav" aria-label="Footer navigation">
