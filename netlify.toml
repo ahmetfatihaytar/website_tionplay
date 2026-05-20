@@ -4,7 +4,7 @@
 
 [[redirects]]
   from = "/app-ads.txt"
-  to = "/.netlify/functions/app-ads.txt"
+  to = "/.netlify/functions/appAdsTxt"
   status = 200
   force = true
 
