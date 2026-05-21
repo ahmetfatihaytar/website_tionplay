@@ -3,16 +3,16 @@ import { useNavigate, useParams, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
 const LANGUAGES = [
-  { code: 'en', name: 'English', flag: '🇬🇧' },
-  { code: 'tr', name: 'Türkçe', flag: '🇹🇷' },
-  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
-  { code: 'fr', name: 'Français', flag: '🇫🇷' },
-  { code: 'es', name: 'Español', flag: '🇪🇸' },
-  { code: 'pt', name: 'Português', flag: '🇧🇷' },
-  { code: 'ja', name: '日本語', flag: '🇯🇵' },
-  { code: 'ko', name: '한국어', flag: '🇰🇷' },
-  { code: 'zh', name: '中文', flag: '🇨🇳' },
-  { code: 'ar', name: 'العربية', flag: '🇸🇦' },
+  { code: 'en', name: 'English',    flag: '🇺🇸' },
+  { code: 'tr', name: 'Türkçe',     flag: '🇹🇷' },
+  { code: 'de', name: 'Deutsch',    flag: '🇩🇪' },
+  { code: 'fr', name: 'Français',   flag: '🇫🇷' },
+  { code: 'es', name: 'Español',    flag: '🇪🇸' },
+  { code: 'pt', name: 'Português',  flag: '🇧🇷' },
+  { code: 'ja', name: '日本語',      flag: '🇯🇵' },
+  { code: 'ko', name: '한국어',      flag: '🇰🇷' },
+  { code: 'zh', name: '中文',        flag: '🇨🇳' },
+  { code: 'ar', name: 'العربية',     flag: '🇸🇦' },
 ]
 
 export default function LanguageSwitcher() {
@@ -36,7 +36,7 @@ export default function LanguageSwitcher() {
   }, [])
 
   function switchLanguage(code) {
-    const pathWithoutLang = location.pathname.replace(`/${lang}`, '')
+    const pathWithoutLang = location.pathname.replace(`/${lang}`, '') || ''
     navigate(`/${code}${pathWithoutLang}${location.search}`)
     i18n.changeLanguage(code)
     setOpen(false)
@@ -51,7 +51,18 @@ export default function LanguageSwitcher() {
         aria-expanded={open}
         aria-label="Select language"
       >
-        <span>{currentLang.flag}</span>
+        <span className="lang-flag-emoji" aria-hidden="true">{currentLang.flag}</span>
+        <span className="lang-btn-name">{currentLang.name}</span>
+        <svg
+          className={`lang-chevron${open ? ' open' : ''}`}
+          width="11"
+          height="11"
+          viewBox="0 0 12 12"
+          fill="none"
+          aria-hidden="true"
+        >
+          <path d="M2 4l4 4 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
       </button>
 
       {open && (
@@ -59,13 +70,13 @@ export default function LanguageSwitcher() {
           {LANGUAGES.map((l) => (
             <button
               key={l.code}
-              className={`lang-option ${l.code === lang ? 'active' : ''}`}
+              className={`lang-option${l.code === lang ? ' active' : ''}`}
               onClick={() => switchLanguage(l.code)}
               role="option"
               aria-selected={l.code === lang}
-              title={l.name}
             >
-              {l.flag}
+              <span className="lang-flag-emoji" aria-hidden="true">{l.flag}</span>
+              <span>{l.name}</span>
             </button>
           ))}
         </div>

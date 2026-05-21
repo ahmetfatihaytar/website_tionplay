@@ -188,13 +188,6 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Wave: showcase (dark warm) → mechanics (dark cool) */}
-      <div className="lp-wave lp-wave--dark" aria-hidden="true">
-        <svg viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0,60 C240,20 480,80 720,45 C960,10 1200,70 1440,40 L1440,90 L0,90 Z" fill="#0F0A22"/>
-        </svg>
-      </div>
-
       {/* 10 MINI-GAMES */}
       <section className="lp-mechanics-section">
         <div className="container">

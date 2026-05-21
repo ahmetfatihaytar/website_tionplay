@@ -329,14 +329,10 @@ p { color: var(--text-secondary); line-height: 1.8; }
   position: relative;
 }
 
-.lang-flag-img {
-  width: 22px;
-  height: 16px;
-  object-fit: cover;
-  border-radius: 3px;
-  display: block;
+.lang-flag-emoji {
+  font-size: 1.15rem;
+  line-height: 1;
   flex-shrink: 0;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
 
 .lang-btn {
@@ -1795,15 +1791,6 @@ select.form-control { cursor: pointer; }
   pointer-events: none;
 }
 
-/* Wave divider — between dark sections (normal flow) */
-.lp-wave--dark {
-  position: relative;
-  display: block;
-  line-height: 0;
-  overflow: hidden;
-  background: #1E0E54;
-  margin-bottom: -2px;
-}
 
 .lp-wave svg {
   display: block;
@@ -2024,7 +2011,7 @@ select.form-control { cursor: pointer; }
 
 /* â”€â”€â”€ TapStop Showcase â”€â”€â”€ */
 .lp-showcase {
-  background: linear-gradient(180deg, #461600 0%, #3C1245 55%, #1E0E54 100%);
+  background: linear-gradient(180deg, #461600 0%, #3C1245 55%, #1E0E54 85%, #0F0A22 100%);
   padding: 100px 0;
   position: relative;
   overflow: hidden;
