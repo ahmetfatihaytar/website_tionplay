@@ -12,8 +12,8 @@
   --orange: #FF6B2B;
   --orange-light: #FF8C55;
   --orange-dark: #E5541A;
-  --dark: #1A1108;
-  --dark-mid: #2D1F0E;
+  --dark: #231508;
+  --dark-mid: #3A2412;
   --peach: #FFE8D6;
   --accent-yellow: #FFD166;
   --accent-green: #06D6A0;
@@ -214,11 +214,11 @@ p { color: var(--text-secondary); line-height: 1.8; }
 }
 
 .navbar.scrolled {
-  background: rgba(15, 9, 3, 0.96);
+  background: rgba(32, 16, 6, 0.94);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
-  border-bottom: 1px solid rgba(255, 107, 43, 0.15);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(255, 107, 43, 0.22);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
 }
 
 .navbar-inner {
@@ -310,10 +310,10 @@ p { color: var(--text-secondary); line-height: 1.8; }
   top: var(--nav-height);
   left: 0;
   right: 0;
-  background: rgba(12, 7, 2, 0.97);
+  background: rgba(38, 20, 8, 0.97);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(255, 107, 43, 0.2);
+  border-bottom: 1px solid rgba(255, 107, 43, 0.28);
   padding: 20px 24px;
   flex-direction: column;
   gap: 8px;
@@ -329,34 +329,88 @@ p { color: var(--text-secondary); line-height: 1.8; }
   position: relative;
 }
 
+.lang-flag-img {
+  width: 22px;
+  height: 16px;
+  object-fit: cover;
+  border-radius: 3px;
+  display: block;
+  flex-shrink: 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
 .lang-btn {
   display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 8px 14px;
-  background: rgba(255,255,255,0.1);
-  border: 1px solid rgba(255,255,255,0.18);
+  gap: 7px;
+  padding: 7px 13px;
+  background: rgba(26, 17, 8, 0.10);
+  border: 1.5px solid rgba(26, 17, 8, 0.22);
   border-radius: 50px;
   font-weight: 700;
   font-size: 0.85rem;
-  color: rgba(255,255,255,0.9);
+  color: var(--text-primary);
   cursor: pointer;
   transition: var(--transition);
+  white-space: nowrap;
 }
 
-.lang-btn:hover { background: var(--orange); color: #fff; border-color: var(--orange); }
+.lang-btn:hover {
+  background: var(--orange);
+  color: #fff;
+  border-color: var(--orange);
+}
+
+.navbar.scrolled .lang-btn {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.22);
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.navbar.scrolled .lang-btn:hover {
+  background: var(--orange);
+  color: #fff;
+  border-color: var(--orange);
+}
+
+.lang-btn-name {
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.lang-chevron {
+  opacity: 0.75;
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+}
+
+.lang-chevron.open {
+  transform: rotate(180deg);
+  opacity: 1;
+}
 
 .lang-dropdown {
   position: absolute;
-  top: calc(100% + 8px);
+  top: calc(100% + 10px);
   right: 0;
   background: #fff;
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-lg);
+  border-radius: 18px;
+  box-shadow: 0 8px 40px rgba(26,17,8,0.18), 0 2px 8px rgba(0,0,0,0.08);
   border: 1px solid var(--border);
-  min-width: 200px;
+  min-width: 178px;
   overflow: hidden;
   z-index: 1001;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  animation: langDropIn 0.18s cubic-bezier(0.34,1.56,0.64,1) both;
+}
+
+@keyframes langDropIn {
+  from { opacity: 0; transform: translateY(-6px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
 }
 
 [dir="rtl"] .lang-dropdown { right: auto; left: 0; }
@@ -365,9 +419,9 @@ p { color: var(--text-secondary); line-height: 1.8; }
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 12px 16px;
+  padding: 9px 12px;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   color: var(--text-primary);
   cursor: pointer;
   transition: var(--transition);
@@ -375,10 +429,24 @@ p { color: var(--text-secondary); line-height: 1.8; }
   background: none;
   width: 100%;
   text-align: left;
+  border-radius: 12px;
+  letter-spacing: 0.01em;
 }
 
-.lang-option:hover { background: var(--peach); color: var(--orange); }
-.lang-option.active { background: var(--peach); color: var(--orange); font-weight: 800; }
+.lang-option:hover {
+  background: var(--peach);
+  color: var(--orange);
+}
+
+.lang-option.active {
+  background: linear-gradient(135deg, var(--peach), #ffe5cc);
+  color: var(--orange);
+  font-weight: 800;
+}
+
+.lang-option.active .lang-flag-img {
+  box-shadow: 0 0 0 2px var(--orange);
+}
 
 /* â”€â”€â”€ Footer â”€â”€â”€ */
 .footer {
@@ -1707,13 +1775,30 @@ select.form-control { cursor: pointer; }
   align-items: center;
   justify-content: center;
   background:
-    radial-gradient(ellipse 90% 70% at 85% 15%, rgba(255, 107, 43, 0.32) 0%, transparent 55%),
-    radial-gradient(ellipse 70% 60% at 10% 85%, rgba(220, 50, 0, 0.22) 0%, transparent 55%),
-    radial-gradient(ellipse 50% 50% at 50% 45%, rgba(255, 170, 0, 0.1) 0%, transparent 50%),
-    linear-gradient(165deg, #100804 0%, #1E0C04 55%, #140906 100%);
+    radial-gradient(ellipse 80% 60% at 80% 20%, rgba(255, 130, 60, 0.50) 0%, transparent 55%),
+    radial-gradient(ellipse 60% 50% at 10% 80%, rgba(255, 90, 20, 0.35) 0%, transparent 55%),
+    radial-gradient(ellipse 45% 45% at 50% 50%, rgba(255, 195, 55, 0.28) 0%, transparent 50%),
+    linear-gradient(to bottom, #FFF5E8 0%, #FFE4C0 65%, #FFCA90 100%);
   position: relative;
   overflow: hidden;
   padding: 0 5vw;
+}
+
+/* Wave divider */
+.lp-wave {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  line-height: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.lp-wave svg {
+  display: block;
+  width: 100%;
+  height: 90px;
 }
 
 .lp-blob {
@@ -1725,21 +1810,21 @@ select.form-control { cursor: pointer; }
 
 .lp-blob-1 {
   width: 700px; height: 700px;
-  background: radial-gradient(circle, rgba(255, 107, 43, 0.4), transparent 70%);
+  background: radial-gradient(circle, rgba(255, 100, 30, 0.28), transparent 70%);
   top: -200px; right: -150px;
   animation: lp-blob-float-1 9s ease-in-out infinite;
 }
 
 .lp-blob-2 {
   width: 500px; height: 500px;
-  background: radial-gradient(circle, rgba(255, 65, 0, 0.3), transparent 70%);
+  background: radial-gradient(circle, rgba(255, 70, 10, 0.20), transparent 70%);
   bottom: -80px; left: -100px;
   animation: lp-blob-float-2 12s ease-in-out infinite;
 }
 
 .lp-blob-3 {
   width: 350px; height: 350px;
-  background: radial-gradient(circle, rgba(255, 200, 0, 0.18), transparent 70%);
+  background: radial-gradient(circle, rgba(255, 185, 20, 0.22), transparent 70%);
   top: 50%; left: 45%;
   transform: translate(-50%, -50%);
   animation: lp-blob-float-3 7s ease-in-out infinite;
@@ -1805,7 +1890,7 @@ select.form-control { cursor: pointer; }
   font-weight: 900;
   line-height: 1.06;
   margin-bottom: 24px;
-  background: linear-gradient(140deg, #ffffff 0%, #FFD166 55%, #FF7A2B 100%);
+  background: linear-gradient(140deg, #231508 0%, #B83600 55%, #FF6B2B 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1814,7 +1899,7 @@ select.form-control { cursor: pointer; }
 
 .lp-hero-subtitle {
   font-size: clamp(1rem, 1.6vw, 1.2rem);
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--text-secondary);
   max-width: 500px;
   margin: 0 0 40px;
   line-height: 1.75;
@@ -1837,18 +1922,18 @@ select.form-control { cursor: pointer; }
   font-size: 1.05rem;
   font-weight: 800;
   border-radius: 50px;
-  border: 2.5px solid rgba(255, 255, 255, 0.3);
-  color: rgba(255, 255, 255, 0.82);
+  border: 2.5px solid rgba(26, 17, 8, 0.28);
+  color: var(--text-primary);
   background: transparent;
   transition: var(--transition-bounce);
   text-decoration: none;
 }
 
 .lp-cta-ghost:hover {
-  border-color: var(--accent-yellow);
-  color: var(--accent-yellow);
+  border-color: var(--orange);
+  color: var(--orange);
   transform: translateY(-3px);
-  background: rgba(255, 209, 102, 0.08);
+  background: rgba(255, 107, 43, 0.08);
 }
 
 .lp-hero-stats {
@@ -1858,10 +1943,11 @@ select.form-control { cursor: pointer; }
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 56px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid rgba(255, 107, 43, 0.20);
   border-radius: 100px;
   padding: 18px 36px;
+  backdrop-filter: blur(12px);
 }
 
 .lp-stat {
@@ -1874,14 +1960,14 @@ select.form-control { cursor: pointer; }
 .lp-stat-num {
   font-size: 1.5rem;
   font-weight: 900;
-  color: #fff;
+  color: var(--dark);
   line-height: 1;
 }
 
 .lp-stat-label {
   font-size: 0.7rem;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.4);
+  color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -1889,12 +1975,12 @@ select.form-control { cursor: pointer; }
 .lp-stat-div {
   width: 1px;
   height: 32px;
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(26, 17, 8, 0.15);
 }
 
 .lp-scroll-hint {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.3);
+  color: var(--text-muted);
 }
 
 .lp-scroll-arrow {
@@ -1928,7 +2014,7 @@ select.form-control { cursor: pointer; }
 
 /* â”€â”€â”€ TapStop Showcase â”€â”€â”€ */
 .lp-showcase {
-  background: linear-gradient(180deg, #140906 0%, #100A14 60%, #0D0918 100%);
+  background: linear-gradient(180deg, #461600 0%, #3C1245 55%, #1E0E54 100%);
   padding: 100px 0;
   position: relative;
   overflow: hidden;
@@ -1939,7 +2025,7 @@ select.form-control { cursor: pointer; }
   position: absolute;
   width: 600px; height: 600px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 160, 40, 0.14) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(255, 160, 40, 0.22) 0%, transparent 65%);
   left: 3%; top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
@@ -1951,7 +2037,7 @@ select.form-control { cursor: pointer; }
   position: absolute;
   width: 420px; height: 420px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(100, 60, 200, 0.1) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(140, 80, 255, 0.18) 0%, transparent 65%);
   right: 3%; bottom: 0;
   pointer-events: none;
   animation: lp-showcase-pulse-r 9s ease-in-out infinite;
@@ -1972,7 +2058,7 @@ select.form-control { cursor: pointer; }
 }
 
 .lp-showcase-icon-frame {
-  background: linear-gradient(145deg, #0a0502, #1a0d06);
+  background: linear-gradient(145deg, #1e0800, #2e1200);
   border-radius: 48px;
   padding: 28px;
   box-shadow:
@@ -2032,7 +2118,7 @@ select.form-control { cursor: pointer; }
 
 .lp-showcase-desc {
   font-size: 1.02rem;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 230, 210, 0.75);
   line-height: 1.8;
   margin-bottom: 28px;
 }
@@ -2107,7 +2193,7 @@ select.form-control { cursor: pointer; }
 
 /* â”€â”€â”€ Mechanics Section â”€â”€â”€ */
 .lp-mechanics-section {
-  background: linear-gradient(180deg, #0D0918 0%, #08091A 55%, #0A0C14 100%);
+  background: #0F0A22;
   padding: 100px 0 80px;
   position: relative;
   overflow: hidden;
@@ -2116,10 +2202,10 @@ select.form-control { cursor: pointer; }
 .lp-mechanics-section::before {
   content: '';
   position: absolute;
-  width: 700px; height: 700px;
+  width: 800px; height: 800px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(100, 70, 220, 0.1) 0%, transparent 60%);
-  right: -120px; top: -120px;
+  background: radial-gradient(circle, rgba(110, 60, 255, 0.38) 0%, transparent 60%);
+  right: -180px; top: -150px;
   pointer-events: none;
   animation: lp-mech-float 15s ease-in-out infinite;
 }
@@ -2127,10 +2213,10 @@ select.form-control { cursor: pointer; }
 .lp-mechanics-section::after {
   content: '';
   position: absolute;
-  width: 500px; height: 500px;
+  width: 600px; height: 600px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 107, 43, 0.07) 0%, transparent 60%);
-  left: -80px; bottom: -60px;
+  background: radial-gradient(circle, rgba(0, 220, 160, 0.22) 0%, transparent 60%);
+  left: -100px; bottom: -80px;
   pointer-events: none;
   animation: lp-mech-float 18s ease-in-out infinite reverse;
 }
@@ -2151,11 +2237,11 @@ select.form-control { cursor: pointer; }
 }
 
 .lp-mechanic-card {
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.07);
   border-radius: var(--radius-md);
   padding: 28px 20px 24px;
   text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.11);
   transition: var(--transition);
   position: relative;
   overflow: hidden;
@@ -2176,8 +2262,8 @@ select.form-control { cursor: pointer; }
 
 .lp-mechanic-card:hover {
   transform: translateY(-6px);
-  background: rgba(255, 255, 255, 0.07);
-  box-shadow: 0 16px 48px color-mix(in srgb, var(--mc) 20%, transparent);
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 16px 48px color-mix(in srgb, var(--mc) 28%, transparent);
 }
 
 .lp-mechanic-emoji {
@@ -2194,14 +2280,14 @@ select.form-control { cursor: pointer; }
 .lp-mechanic-card h4 {
   font-size: 0.9rem;
   font-weight: 900;
-  color: rgba(255, 255, 255, 0.92);
+  color: rgba(255, 255, 255, 0.96);
   margin-bottom: 6px;
   line-height: 1.3;
 }
 
 .lp-mechanic-card p {
   font-size: 0.78rem;
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(255, 255, 255, 0.58);
   line-height: 1.55;
 }
 
@@ -2263,7 +2349,7 @@ select.form-control { cursor: pointer; }
 
 /* â”€â”€â”€ Contact Section â”€â”€â”€ */
 .lp-contact-section {
-  background: linear-gradient(180deg, #0A0C14 0%, #100808 55%, #160A05 100%);
+  background: #0F0A22;
   padding: 100px 0 90px;
   position: relative;
   overflow: hidden;
@@ -2274,7 +2360,7 @@ select.form-control { cursor: pointer; }
   position: absolute;
   width: 720px; height: 720px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 107, 43, 0.11) 0%, transparent 60%);
+  background: radial-gradient(circle, rgba(255, 120, 50, 0.32) 0%, transparent 60%);
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
   pointer-events: none;
@@ -2284,18 +2370,25 @@ select.form-control { cursor: pointer; }
 .lp-form-wrap {
   max-width: 660px;
   margin: 0 auto;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.10);
   border-radius: var(--radius-xl);
   padding: 52px 48px;
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.4);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.16);
   position: relative;
   z-index: 1;
+  backdrop-filter: blur(16px);
 }
 
 .lp-success-state {
   text-align: center;
   padding: 48px 0;
+  color: #fff;
+}
+
+.lp-success-state h3,
+.lp-success-state p {
+  color: #fff;
 }
 
 .lp-success-emoji {
@@ -2359,7 +2452,7 @@ select.form-control { cursor: pointer; }
 
 /* Dark section overrides — contact */
 .lp-contact-section .lp-section-header h2 { color: #fff; }
-.lp-contact-section .lp-section-header p { color: rgba(255, 255, 255, 0.55); }
+.lp-contact-section .lp-section-header p { color: rgba(255, 230, 210, 0.72); }
 .lp-contact-section .section-tag {
   background: rgba(255, 107, 43, 0.14);
   border: 1px solid rgba(255, 107, 43, 0.3);
@@ -2393,7 +2486,7 @@ select.form-control { cursor: pointer; }
 
 /* Dark section overrides — mechanics */
 .lp-mechanics-section .lp-section-header h2 { color: #fff; }
-.lp-mechanics-section .lp-section-header p { color: rgba(255, 255, 255, 0.55); }
+.lp-mechanics-section .lp-section-header p { color: rgba(255, 230, 210, 0.72); }
 .lp-mechanics-section .section-tag {
   background: rgba(255, 107, 43, 0.14);
   border: 1px solid rgba(255, 107, 43, 0.3);
@@ -2402,7 +2495,7 @@ select.form-control { cursor: pointer; }
 
 /* Dark section overrides — showcase */
 .lp-showcase .lp-section-header h2 { color: #fff; }
-.lp-showcase .lp-section-header p { color: rgba(255, 255, 255, 0.55); }
+.lp-showcase .lp-section-header p { color: rgba(255, 230, 210, 0.72); }
 .lp-showcase .section-tag {
   background: rgba(255, 107, 43, 0.14);
   border: 1px solid rgba(255, 107, 43, 0.3);
@@ -2411,7 +2504,7 @@ select.form-control { cursor: pointer; }
 
 /* â”€â”€â”€ Footer â”€â”€â”€ */
 .lp-footer {
-  background: linear-gradient(180deg, #120806 0%, #090503 100%);
+  background: linear-gradient(180deg, #0F0A22 0%, #080515 100%);
   padding: 60px 0 0;
 }
 

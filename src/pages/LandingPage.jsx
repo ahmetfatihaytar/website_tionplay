@@ -126,16 +126,15 @@ export default function LandingPage() {
             <a href="#game" className="lp-scroll-hint" aria-label="Scroll down">
               <span className="lp-scroll-arrow">↓</span>
             </a>
-          </div>
         </div>
-      </section>
+      </div>
 
-      {/* Wave divider: hero (cream) → dark universe */}
       <div className="lp-wave" aria-hidden="true">
         <svg viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0,45 C200,85 400,5 600,45 C800,85 1000,5 1200,45 C1320,65 1390,38 1440,45 L1440,90 L0,90 Z" fill="#0F0A22"/>
+          <path d="M0,45 C200,85 400,5 600,45 C800,85 1000,5 1200,45 C1320,65 1390,38 1440,45 L1440,90 L0,90 Z" fill="#461600"/>
         </svg>
       </div>
+      </section>
 
       {/* TAPSTOP SHOWCASE */}
       <section id="game" className="lp-showcase">
