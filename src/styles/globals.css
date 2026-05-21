@@ -1784,7 +1784,7 @@ select.form-control { cursor: pointer; }
   padding: 0 5vw;
 }
 
-/* Wave divider */
+/* Wave divider — hero bottom (absolute inside hero) */
 .lp-wave {
   position: absolute;
   bottom: -1px;
@@ -1793,6 +1793,16 @@ select.form-control { cursor: pointer; }
   line-height: 0;
   z-index: 2;
   pointer-events: none;
+}
+
+/* Wave divider — between dark sections (normal flow) */
+.lp-wave--dark {
+  position: relative;
+  display: block;
+  line-height: 0;
+  overflow: hidden;
+  background: #1E0E54;
+  margin-bottom: -2px;
 }
 
 .lp-wave svg {
