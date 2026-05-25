@@ -1,0 +1,213 @@
+﻿{
+  "nav": {
+    "home": "Home",
+    "games": "Games",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Games are art.",
+    "subtitle": "We craft precision mobile games that are simple to learn, hard to master, and impossible to put down.",
+    "cta": "Discover TapStop",
+    "ctaSecondary": "Read Our Blog"
+  },
+  "manifesto": {
+    "title": "Our Philosophy",
+    "craft": {
+      "title": "Craft",
+      "desc": "Every pixel, every animation, every sound effect is considered. We obsess over the details that players feel but never notice."
+    },
+    "joy": {
+      "title": "Joy",
+      "desc": "Games should make you smile, even when they challenge you. We design for delight — the small moments that make you come back."
+    },
+    "precision": {
+      "title": "Precision",
+      "desc": "Tight controls. Perfect timing windows. Satisfying feedback. Our games reward skill and make mastery feel earned."
+    }
+  },
+  "featuredGame": {
+    "title": "Our Latest Game",
+    "badge": "Now on Google Play",
+    "cta": "View Game Details",
+    "download": "Download Free"
+  },
+  "process": {
+    "title": "How We Build Games",
+    "subtitle": "From a spark of an idea to a polished product in your hands",
+    "steps": {
+      "idea": { "title": "Idea", "desc": "It starts with a feeling — a mechanic that sparks joy. We sketch, prototype, and test rapidly." },
+      "design": { "title": "Design", "desc": "Visual language, sound palette, and UX flows come together to create a cohesive world." },
+      "build": { "title": "Build", "desc": "Flutter brings our designs to life with smooth 60fps animations and tight, responsive controls." },
+      "polish": { "title": "Polish", "desc": "The secret ingredient. Dozens of iterations refine every edge until the game feels inevitable." },
+      "launch": { "title": "Launch", "desc": "We ship, listen to players, and keep improving. A game is never truly finished." }
+    }
+  },
+  "blogPreview": {
+    "title": "From the Studio",
+    "subtitle": "Thoughts on game dev, design, and the indie journey",
+    "readMore": "Read Article",
+    "viewAll": "View All Posts"
+  },
+  "contactCta": {
+    "title": "Got an idea? Let's talk.",
+    "subtitle": "Partnership, press, or just want to say hello — we'd love to hear from you.",
+    "cta": "Get In Touch"
+  },
+  "about": {
+    "pageTitle": "About Tion Play",
+    "storyTitle": "The Story",
+    "story1": "Tion Play was born in the summer of 2023 in Istanbul, Turkey. Fatih Aytar, a software developer with a lifelong passion for games, decided to stop dreaming and start building.",
+    "story2": "The studio's name comes from an unlikely muse: Fatih's cat, Tion. Curious, precise, and impossible to ignore — the perfect spirit animal for a precision game studio.",
+    "story3": "Working from a home office in Istanbul, with Tion occasionally walking across the keyboard, Tion Play has crafted games that celebrate the satisfaction of perfect timing.",
+    "missionTitle": "Our Mission",
+    "mission": "To make games that feel like art — accessible to everyone, deeply satisfying to master, and worth every minute of your time.",
+    "valuesTitle": "What We Stand For",
+    "teamTitle": "The Studio",
+    "teamMember": {
+      "name": "Fatih Aytar",
+      "role": "Founder & Solo Developer",
+      "bio": "Developer, designer, sound curator, tester, marketer. Fatih does it all. Powered by tea, indie game podcasts, and the occasional cat approval."
+    },
+    "statsTitle": "By the Numbers",
+    "stats": {
+      "games": { "value": "1", "label": "Game Shipped" },
+      "levels": { "value": "100", "label": "Levels Designed" },
+      "themes": { "value": "10", "label": "Unique Themes" },
+      "cat": { "value": "1", "label": "Cat in the Office 🐱" }
+    }
+  },
+  "games": {
+    "pageTitle": "Our Games",
+    "subtitle": "Crafted with precision, designed for joy",
+    "filterAll": "All Games",
+    "filterReleased": "Released",
+    "filterComing": "Coming Soon",
+    "comingSoon": "Coming Soon",
+    "released": "Released",
+    "download": "Download on Google Play",
+    "details": "View Details",
+    "features": "Features"
+  },
+  "gameDetail": {
+    "download": "Download Free on Google Play",
+    "privacyPolicy": "Privacy Policy",
+    "screenshots": "Screenshots",
+    "themes": "Game Themes",
+    "levels": "100 Levels",
+    "themes10": "10 Unique Themes",
+    "free": "Free to Play"
+  },
+  "blog": {
+    "pageTitle": "Blog",
+    "subtitle": "Insights on game development, design, and the indie journey",
+    "searchPlaceholder": "Search articles...",
+    "filterAll": "All",
+    "readMore": "Read More",
+    "minRead": "min read",
+    "by": "by",
+    "noResults": "No articles found. Try a different search or category.",
+    "categories": {
+      "all": "All",
+      "mobileGames": "Mobile Games",
+      "gameDev": "Game Dev",
+      "flutter": "Flutter",
+      "indieDev": "Indie Dev",
+      "gameDesign": "Game Design",
+      "mobileIndustry": "Mobile Industry"
+    }
+  },
+  "blogPost": {
+    "backToBlog": "← Back to Blog",
+    "share": "Share this article",
+    "shareTwitter": "Share on X",
+    "shareLinkedin": "Share on LinkedIn",
+    "copyLink": "Copy Link",
+    "copied": "Copied!",
+    "relatedPosts": "Related Posts",
+    "prevPost": "← Previous",
+    "nextPost": "Next →"
+  },
+  "contact": {
+    "pageTitle": "Contact Us",
+    "subtitle": "We'd love to hear from you",
+    "name": "Your Name",
+    "email": "Email Address",
+    "subject": "Subject",
+    "message": "Your Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent! We'll get back to you soon.",
+    "error": "Something went wrong. Please try again.",
+    "nameRequired": "Please enter your name.",
+    "messageRequired": "Please enter your message.",
+    "emailInvalid": "Please enter a valid email address.",
+    "captchaLabel": "Brain Gym: {{a}} + {{b}} =",
+    "captchaError": "Incorrect answer. Please try again.",
+    "orEmail": "Or email us directly:",
+    "subjects": {
+      "general": "General Inquiry",
+      "partnership": "Partnership",
+      "press": "Press & Media",
+      "other": "Other"
+    },
+    "info": {
+      "location": "Istanbul, Turkey",
+      "email": "info@tionplay.com",
+      "social": "Find Us Online"
+    }
+  },
+  "footer": {
+    "tagline": "Making games from Istanbul with love.",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2026 Tion Play. All rights reserved.",
+    "madeWith": "Made with ☕ and 🐱 in Istanbul"
+  },
+  "notFound": {
+    "title": "Level Not Found!",
+    "subtitle": "Looks like this page doesn't exist. Maybe it's a secret level?",
+    "cta": "Back to Home"
+  },
+  "langSwitcher": {
+    "label": "Language"
+  },
+  "tapstop": {
+    "tagline": "Tap at the perfect moment — across 10 different challenges!",
+    "description": "TapStop is a precision timing mobile game featuring 10 completely different mini-game mechanics. Each level puts your reflexes to a brand-new test: fill a glass without spilling, cut fruit in half, inflate a balloon without popping it, rescue a princess past a sleeping bear, and much more. 100 hand-crafted levels — and completely free.",
+    "statLevels": "Levels",
+    "statMechanics": "Mini-Games",
+    "statThemes": "Themes",
+    "statFree": "Free",
+    "mechanicsTitle": "10 Mini-Games",
+    "mechanicsHeadline": "A new challenge every 10 levels",
+    "mechanicsSub": "Each mechanic is unique — master them all to conquer all 100 levels.",
+    "themesTitle": "6 Visual Themes",
+    "appStoreSoon": "Coming Soon",
+    "mechanics": {
+      "tap":       { "name": "Fill the Glass",      "desc": "Stop the faucet at exactly the right moment. Don't spill a drop!" },
+      "fruitcut":  { "name": "Cut the Fruit",       "desc": "Slice the watermelon perfectly in half with one precise tap." },
+      "balloon":   { "name": "Inflate Balloon",     "desc": "Pump the balloon as big as possible — without popping it." },
+      "pizza":     { "name": "Bake Pizza",          "desc": "Pull the pizza from the oven at the perfect golden moment." },
+      "princess":  { "name": "Rescue Princess",     "desc": "Sneak past the sleeping bear without waking it." },
+      "scissors":  { "name": "Cut the Hair",        "desc": "Snip at exactly the right moment to nail the perfect cut." },
+      "fish":      { "name": "Catch Fish",          "desc": "Reel in the fish at just the right moment — not too early, not too late." },
+      "boomerang": { "name": "Catch Boomerang",     "desc": "Catch it just as it returns to your hand." },
+      "bag":       { "name": "Steal the Bag",       "desc": "Grab grandpa's bag without making a sound." },
+      "crossy":    { "name": "Cross the Road",      "desc": "Time your crossing perfectly to avoid getting hit." }
+    },
+    "themes": {
+      "water":  "Water",
+      "fire":   "Fire",
+      "nature": "Nature",
+      "sunset": "Sunset",
+      "ice":    "Ice",
+      "lava":   "Lava"
+    }
+  }
+,
+  "privacy": { "title": "Privacy Policy", "lastUpdated": "Last updated", "metaDesc": "Privacy Policy for TapStop by Tion Play. Learn how we collect, use, and protect your information." }
+}

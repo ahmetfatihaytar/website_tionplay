@@ -1,0 +1,45 @@
+﻿{
+  "nav": { "home": "ホーム", "games": "ゲーム", "about": "私たちについて", "blog": "ブログ", "contact": "お問い合わせ" },
+  "hero": { "tagline": "ゲームはアートだ。", "subtitle": "学びやすく、極めにくく、やめられない精密モバイルゲームを作っています。", "cta": "TapStopを見る", "ctaSecondary": "ブログを読む" },
+  "manifesto": { "title": "私たちの哲学", "craft": { "title": "職人技", "desc": "すべてのピクセル、アニメーション、サウンドエフェクトに思いが込められています。プレイヤーが感じるが気づかない細部にこだわります。" }, "joy": { "title": "喜び", "desc": "ゲームはチャレンジしながらも笑顔にさせてくれるものです。喜びのために設計します。" }, "precision": { "title": "精度", "desc": "きびきびしたコントロール。完璧なタイミングウィンドウ。満足のいくフィードバック。" } },
+  "featuredGame": { "title": "最新ゲーム", "badge": "Google Playで公開中", "cta": "ゲームの詳細を見る", "download": "無料ダウンロード" },
+  "process": { "title": "ゲームの作り方", "subtitle": "アイデアの火花から磨き上げられた製品まで", "steps": { "idea": { "title": "アイデア", "desc": "すべては感覚から始まります — 楽しさを生み出すメカニクス。" }, "design": { "title": "デザイン", "desc": "ビジュアル言語、サウンドパレット、UXフローが一体となり世界観を作ります。" }, "build": { "title": "開発", "desc": "Flutterが60fpsのスムーズなアニメーションでデザインを実現します。" }, "polish": { "title": "磨き上げ", "desc": "何十回もの反復で、ゲームが完璧になるまでごとを磨きます。" }, "launch": { "title": "リリース", "desc": "リリースし、プレイヤーの声を聞き、改善し続けます。" } } },
+  "blogPreview": { "title": "スタジオから", "subtitle": "ゲーム開発、デザイン、インディーの旅について", "readMore": "記事を読む", "viewAll": "すべての投稿を見る" },
+  "contactCta": { "title": "アイデアがありますか？話しましょう。", "subtitle": "パートナーシップ、プレス、あるいは挨拶でも — ぜひ聞かせてください。", "cta": "お問い合わせ" },
+  "about": { "pageTitle": "Tion Playについて", "storyTitle": "ストーリー", "story1": "Tion Playは2023年夏、トルコのイスタンブールで誕生しました。ゲームへの情熱を持ち続けるソフトウェア開発者ファティ・アイタルが、夢を見るのをやめて作り始めることにしました。", "story2": "スタジオの名前は意外なミューズから来ています：ファティの猫、Tion。好奇心旺盛で正確、無視できない存在。", "story3": "イスタンブールのホームオフィスで作業しながら、Tion Playは完璧なタイミングの満足感を讃えるゲームを作ってきました。", "missionTitle": "ミッション", "mission": "アートのように感じられるゲームを作る — 誰でもアクセスでき、極める喜びがある。", "valuesTitle": "私たちが大切にすること", "teamTitle": "スタジオ", "teamMember": { "name": "ファティ・アイタル", "role": "創設者＆ソロ開発者", "bio": "開発者、デザイナー、サウンドキュレーター、テスター、マーケター。ファティはすべてをこなします。" }, "statsTitle": "数字で見る", "stats": { "games": { "value": "1", "label": "リリースしたゲーム" }, "levels": { "value": "100", "label": "設計したレベル" }, "themes": { "value": "10", "label": "ユニークなテーマ" }, "cat": { "value": "1", "label": "オフィスの猫 🐱" } } },
+  "games": { "pageTitle": "私たちのゲーム", "subtitle": "精度で作られ、喜びのためにデザインされた", "filterAll": "すべて", "filterReleased": "リリース済み", "filterComing": "近日公開", "comingSoon": "近日公開", "released": "リリース済み", "download": "Google Playでダウンロード", "details": "詳細を見る", "features": "特徴" },
+  "gameDetail": { "download": "Google Playで無料ダウンロード", "privacyPolicy": "プライバシーポリシー", "screenshots": "スクリーンショット", "themes": "ゲームテーマ", "levels": "100レベル", "themes10": "10ユニークなテーマ", "free": "無料プレイ" },
+  "blog": { "pageTitle": "ブログ", "subtitle": "ゲーム開発、デザイン、インディーの旅について", "searchPlaceholder": "記事を検索...", "filterAll": "すべて", "readMore": "続きを読む", "minRead": "分で読める", "by": "著者", "noResults": "記事が見つかりません。別の検索を試してください。", "categories": { "all": "すべて", "mobileGames": "モバイルゲーム", "gameDev": "ゲーム開発", "flutter": "Flutter", "indieDev": "インディー開発", "gameDesign": "ゲームデザイン", "mobileIndustry": "モバイル業界" } },
+  "blogPost": { "backToBlog": "← ブログに戻る", "share": "この記事をシェア", "shareTwitter": "Xでシェア", "shareLinkedin": "LinkedInでシェア", "copyLink": "リンクをコピー", "copied": "コピーしました！", "relatedPosts": "関連投稿", "prevPost": "← 前へ", "nextPost": "次へ →" },
+  "contact": { "pageTitle": "お問い合わせ", "subtitle": "ぜひご連絡ください", "name": "お名前", "email": "メールアドレス", "subject": "件名", "message": "メッセージ", "send": "送信", "sending": "送信中...", "success": "メッセージが送信されました！まもなくご連絡します。", "error": "エラーが発生しました。もう一度お試しください。", "nameRequired": "お名前を入力してください。", "messageRequired": "メッセージを入力してください。", "emailInvalid": "有効なメールアドレスを入力してください。", "captchaLabel": "脳トレ: {{a}} + {{b}} =", "captchaError": "回答が正しくありません。もう一度お試しください。", "subjects": { "general": "一般的な質問", "partnership": "パートナーシップ", "press": "プレス・メディア", "other": "その他" }, "info": { "location": "イスタンブール、トルコ", "email": "hello@tionplay.com", "social": "オンラインで見つける" }, "orEmail": "または直接メールを送信してください：" },
+  "footer": { "tagline": "イスタンブールから愛を込めてゲームを作っています。", "quickLinks": "クイックリンク", "legal": "法的情報", "privacyPolicy": "プライバシーポリシー", "terms": "利用規約", "copyright": "© 2026 Tion Play. 全著作権所有。", "madeWith": "イスタンブールで☕と🐱と共に作られました" },
+  "notFound": { "title": "レベルが見つかりません！", "subtitle": "このページは存在しないようです。秘密のレベルかもしれません？", "cta": "ホームに戻る" },
+  "langSwitcher": { "label": "言語" }
+,
+  "tapstop": {
+    "tagline": "完璧な瞬間にタップ — 10種類のチャレンジで！",
+    "description": "TapStop!は10種類の異なるミニゲームメカニクスを持つ精密タイミングゲームです。100の手作りレベル — そして完全無料。",
+    "statLevels": "レベル",
+    "statMechanics": "ミニゲーム",
+    "statThemes": "テーマ",
+    "statFree": "無料",
+    "mechanicsTitle": "10のミニゲーム",
+    "mechanicsHeadline": "10レベルごとに新しいチャレンジ",
+    "mechanicsSub": "それぞれのメカニクスは独自です — 全100レベルを制覇しよう。",
+    "appStoreSoon": "近日公開",
+    "mechanics": {
+      "tap": { "name": "グラスを満たす", "desc": "Stop the faucet at exactly the right moment. Don't spill a drop!" },
+      "fruitcut": { "name": "フルーツを切る", "desc": "Slice the watermelon perfectly in half with one precise tap." },
+      "balloon": { "name": "風船を膨らます", "desc": "Pump the balloon as big as possible — without popping it." },
+      "pizza": { "name": "ピザを焼く", "desc": "Pull the pizza from the oven at the perfect golden moment." },
+      "princess": { "name": "お姫様を救う", "desc": "Sneak past the sleeping bear without waking it." },
+      "scissors": { "name": "髪を切る", "desc": "Snip at exactly the right moment to nail the perfect cut." },
+      "fish": { "name": "魚を釣る", "desc": "Reel in the fish at just the right moment — not too early, not too late." },
+      "boomerang": { "name": "ブーメランを掴む", "desc": "Catch it just as it returns to your hand." },
+      "bag": { "name": "バッグを盗む", "desc": "Grab grandpa's bag without making a sound." },
+      "crossy": { "name": "道を渡る", "desc": "Time your crossing perfectly to avoid getting hit." }
+    }
+  }
+,
+  "privacy": { "title": "プライバシーポリシー", "lastUpdated": "最終更新日", "metaDesc": "Tion PlayによるTapStopのプライバシーポリシー。" }
+}
