@@ -6,6 +6,7 @@ const CONTACT_EMAIL = 'info@tionplay.com'
 const APP_NAME = 'TapStop'
 const COMPANY_NAME = 'Tion Play'
 const WEBSITE = 'https://tionplay.com'
+const LAST_UPDATED = 'May 25, 2026'
 
 export default function PrivacyPolicy() {
   const { lang = 'en' } = useParams()
@@ -25,7 +26,7 @@ export default function PrivacyPolicy() {
           <header className="policy-header">
             <p className="policy-app-name">{APP_NAME} by {COMPANY_NAME}</p>
             <h1 className="policy-title">{t('privacy.title')}</h1>
-            <p className="policy-date">{t('privacy.lastUpdated')}: March 20, 2026</p>
+            <p className="policy-date">{t('privacy.lastUpdated')}: {LAST_UPDATED}</p>
           </header>
 
           <div className="policy-body">
@@ -59,43 +60,93 @@ export default function PrivacyPolicy() {
                 When you use {APP_NAME}, certain information may be collected automatically by
                 third-party services integrated into the app:
               </p>
+
+              <p><strong>Advertising (Google AdMob)</strong></p>
               <ul>
                 <li>
-                  <strong>Advertising identifier</strong> — Your device's advertising ID (IDFA on iOS,
-                  GAID/AAID on Android) may be collected by Google AdMob to serve personalized or
-                  non-personalized ads.
+                  <strong>Advertising identifier</strong> — GAID/AAID on Android (and IDFA on iOS where applicable)
                 </li>
                 <li>
-                  <strong>IP address</strong> — Your approximate IP address may be used by Google AdMob
-                  to determine coarse location for ad targeting and frequency capping.
+                  <strong>IP address</strong> — approximate location for ad targeting and frequency capping
                 </li>
                 <li>
-                  <strong>Device information</strong> — Device model, operating system version, language,
-                  and screen resolution may be collected to optimize ad delivery.
+                  <strong>Device information</strong> — device model, operating system version, language, screen resolution
                 </li>
                 <li>
-                  <strong>App usage data</strong> — Ad interaction data (e.g., whether an ad was viewed
-                  or clicked) collected by Google AdMob for ad performance measurement.
+                  <strong>Ad interaction data</strong> — impressions, clicks, rewarded ad views
                 </li>
               </ul>
 
+              <p><strong>Analytics &amp; app improvement (Google Firebase)</strong></p>
+              <ul>
+                <li>
+                  <strong>App usage events</strong> — e.g. levels started/completed, settings changes, button interactions, session activity
+                </li>
+                <li>
+                  <strong>Device information</strong> — device model, brand, operating system version
+                </li>
+                <li>
+                  <strong>App instance identifiers</strong> — used to distinguish app installations
+                </li>
+              </ul>
+
+              <p><strong>Crash &amp; diagnostics (Google Firebase Crashlytics)</strong></p>
+              <ul>
+                <li>
+                  <strong>Crash reports</strong> — stack traces and diagnostic data needed to fix bugs
+                </li>
+                <li>
+                  <strong>Device information</strong> — device model and operating system version
+                </li>
+              </ul>
+
+              <p><strong>Marketing measurement (Meta / Facebook SDK)</strong></p>
+              <ul>
+                <li>
+                  <strong>App events</strong> — e.g. app open, level achieved, ad watched
+                </li>
+                <li>
+                  <strong>Device identifiers and technical data</strong> — as described in Meta&apos;s policies
+                </li>
+              </ul>
+
+              <p><strong>Marketing measurement (TikTok Business SDK)</strong></p>
+              <ul>
+                <li>
+                  <strong>App events</strong> — e.g. app launch, level achieved, ad impressions
+                </li>
+                <li>
+                  <strong>Device identifiers and technical data</strong> — as described in TikTok&apos;s policies
+                </li>
+              </ul>
+
+              <p><strong>Consent (Google User Messaging Platform — UMP)</strong></p>
+              <ul>
+                <li>
+                  <strong>Advertising consent choices</strong> — where required by law, stored locally and/or via Google
+                </li>
+              </ul>
+
+              <p>
+                We do not use these services to collect your name, email, or phone number.
+              </p>
+
               <h3>2.3 Data Stored Locally on Your Device</h3>
               <p>
-                The following data is stored <strong>only on your device</strong> and is never
-                transmitted to our servers:
+                The following data is stored <strong>only on your device</strong> and is not sent to our own servers:
               </p>
               <ul>
                 <li>Game progress (level number and star ratings for each level)</li>
-                <li>App settings (sound on/off, music on/off, haptic feedback on/off)</li>
+                <li>App settings (sound, music, haptic feedback, language preference)</li>
               </ul>
               <p>
-                This data is stored using your device's local storage (SharedPreferences on Android,
-                NSUserDefaults on iOS) and can be cleared by uninstalling the app.
+                This data is stored using your device&apos;s local storage (SharedPreferences on Android)
+                and can be cleared by uninstalling the app or clearing app data.
               </p>
 
               <h3>2.4 Sensor Data</h3>
               <p>
-                Some game mechanics in {APP_NAME} use your device's motion and orientation sensors
+                Some game mechanics in {APP_NAME} use your device&apos;s motion and orientation sensors
                 (accelerometer/gyroscope) for gameplay only. This sensor data is processed in
                 real-time on your device and is <strong>never stored or transmitted</strong>.
               </p>
@@ -103,16 +154,19 @@ export default function PrivacyPolicy() {
 
             <section className="policy-section">
               <h2>3. How We Use Your Information</h2>
-              <p>We do not collect or use personal information directly. The data collected via
-              third-party services is used for the following purposes:</p>
+              <p>
+                We do not operate our own user database. Third-party services process data to:
+              </p>
               <ul>
-                <li>To display advertisements within the app (via Google AdMob)</li>
-                <li>To measure ad performance and prevent ad fraud</li>
-                <li>To provide a free gaming experience supported by advertising revenue</li>
+                <li>Display and measure in-app advertisements (Google AdMob)</li>
+                <li>Understand how the game is used and improve gameplay (Firebase Analytics)</li>
+                <li>Detect and fix crashes and technical issues (Firebase Crashlytics)</li>
+                <li>Measure app install and in-app event performance for marketing (Meta, TikTok, where enabled)</li>
+                <li>Comply with advertising consent requirements (Google UMP)</li>
               </ul>
               <p>
-                We do <strong>not</strong> sell, trade, or rent any personal information to third parties
-                beyond what is described in this policy.
+                We do <strong>not</strong> sell your personal information. We do not use third-party
+                analytics to build a profile of you for unrelated purposes.
               </p>
             </section>
 
@@ -122,75 +176,80 @@ export default function PrivacyPolicy() {
               <h3>4.1 Google AdMob</h3>
               <p>
                 {APP_NAME} uses <strong>Google AdMob</strong> to display in-app advertisements
-                (interstitial and rewarded video ads). AdMob is operated by Google LLC and may collect
-                and process data as described in Google's privacy policy.
+                (interstitial and rewarded video ads). AdMob is operated by Google LLC.
               </p>
-              <p>
-                Google may use the advertising ID and other information to provide personalized ads
-                based on your interests. You can opt out of personalized advertising at any time
-                through your device settings:
-              </p>
+              <p>You can limit personalized ads in device settings:</p>
               <ul>
                 <li>
-                  <strong>Android:</strong> Settings → Google → Ads → "Delete advertising ID" or
-                  "Opt out of Ads Personalization"
+                  <strong>Android:</strong> Settings → Google → Ads → opt out or reset advertising ID
                 </li>
                 <li>
-                  <strong>iOS:</strong> Settings → Privacy & Security → Tracking → Disable "Allow Apps
-                  to Request to Track"
+                  <strong>iOS:</strong> Settings → Privacy &amp; Security → Tracking → disable &quot;Allow Apps to Request to Track&quot;
                 </li>
               </ul>
               <p>
-                For more information on how Google uses data, please visit:{' '}
-                <a
-                  href="https://policies.google.com/privacy"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                Privacy policy:{' '}
+                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
                   https://policies.google.com/privacy
                 </a>
               </p>
               <p>
-                Google AdMob's data use policy:{' '}
-                <a
-                  href="https://support.google.com/admob/answer/6128543"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                AdMob data use:{' '}
+                <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener noreferrer">
                   https://support.google.com/admob/answer/6128543
                 </a>
               </p>
 
-              <h3>4.2 Google Play Services / Apple App Store</h3>
+              <h3>4.2 Google Firebase (Analytics &amp; Crashlytics)</h3>
               <p>
-                {APP_NAME} is distributed through Google Play (Android) and the Apple App Store (iOS).
-                These platforms may collect certain usage and diagnostic data as governed by their own
-                privacy policies:
+                We use Google Firebase to analyze app usage and report crashes.
               </p>
-              <ul>
-                <li>
-                  Google Play:{' '}
-                  <a
-                    href="https://policies.google.com/privacy"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    https://policies.google.com/privacy
-                  </a>
-                </li>
-                <li>
-                  Apple App Store:{' '}
-                  <a
-                    href="https://www.apple.com/legal/privacy/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    https://www.apple.com/legal/privacy/
-                  </a>
-                </li>
-              </ul>
+              <p>
+                Privacy policy:{' '}
+                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+                  https://policies.google.com/privacy
+                </a>
+                {' · '}
+                <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">
+                  https://firebase.google.com/support/privacy
+                </a>
+              </p>
 
-              <h3>4.3 In-App Review</h3>
+              <h3>4.3 Meta (Facebook) App Events</h3>
+              <p>
+                We use the Meta SDK to measure app events for advertising optimization.
+              </p>
+              <p>
+                Privacy policy:{' '}
+                <a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener noreferrer">
+                  https://www.facebook.com/privacy/policy/
+                </a>
+              </p>
+
+              <h3>4.4 TikTok Business SDK</h3>
+              <p>
+                We use the TikTok SDK to measure app events for advertising optimization.
+              </p>
+              <p>
+                Privacy policy:{' '}
+                <a href="https://www.tiktok.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">
+                  https://www.tiktok.com/legal/privacy-policy
+                </a>
+              </p>
+
+              <h3>4.5 Google User Messaging Platform (UMP)</h3>
+              <p>
+                Where required, we show a consent form for ads and related measurement.
+                Your choices are handled by Google&apos;s consent framework.
+              </p>
+
+              <h3>4.6 Google Play / Apple App Store</h3>
+              <p>
+                {APP_NAME} is distributed through Google Play (Android) and may be listed on the Apple App Store.
+                These platforms may collect usage and diagnostic data under their own privacy policies.
+              </p>
+
+              <h3>4.7 In-App Review</h3>
               <p>
                 The app may prompt you to leave a review using the native in-app review API
                 provided by Google Play or the Apple App Store. No personal information is collected
@@ -199,70 +258,67 @@ export default function PrivacyPolicy() {
             </section>
 
             <section className="policy-section">
-              <h2>5. Data Retention</h2>
+              <h2>5. Legal Basis (EEA/UK — GDPR)</h2>
+              <p>Where GDPR applies, processing is based on:</p>
+              <ul>
+                <li><strong>Consent</strong> — personalized ads and certain measurement (where you are asked and agree)</li>
+                <li><strong>Legitimate interests</strong> — app analytics, crash reporting, and fraud prevention, balanced against your rights</li>
+              </ul>
               <p>
-                Since we do not collect personal data on our own servers, there is no retention
-                period to specify on our side. Local device data (game progress and settings) is
-                retained on your device until you uninstall the application or clear the app's data
-                through your device settings.
-              </p>
-              <p>
-                Data collected by Google AdMob is retained according to Google's own data retention
-                policies. Please refer to Google's Privacy Policy for details.
+                You may withdraw consent for ads via device settings or in-app ad preference options where available.
               </p>
             </section>
 
             <section className="policy-section">
-              <h2>6. Children's Privacy</h2>
+              <h2>6. Data Retention</h2>
               <p>
-                {APP_NAME} is designed for general audiences and is rated for users of all ages.
-                We are committed to protecting the privacy of children.
+                We do not store personal data on our own servers. Local game data remains on your device
+                until you delete the app. Third parties retain data according to their own policies
+                (Google, Meta, TikTok).
+              </p>
+            </section>
+
+            <section className="policy-section">
+              <h2>7. Children&apos;s Privacy</h2>
+              <p>
+                {APP_NAME} is designed for general audiences. We do not knowingly collect personal
+                information from children under 13 (or the applicable age in your country).
+                We do not require account creation.
               </p>
               <p>
-                <strong>We do not knowingly collect personal information from children under the age of
-                13</strong> (or the applicable age of digital consent in your jurisdiction). The app
-                does not require account creation, and we do not request any personally identifiable
-                information from any user, including children.
-              </p>
-              <p>
-                Regarding advertising: on Android, we configure Google AdMob to serve ads appropriate
-                for all ages (non-personalized ads) where required by applicable law. On iOS, we
-                follow Apple's guidelines regarding advertising to children.
+                Where required, we use non-personalized ads and follow platform rules for child-directed content.
               </p>
               <p>
                 If you are a parent or guardian and believe your child has provided us with personal
                 information, please contact us at{' '}
-                <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> and we will take appropriate
-                action.
+                <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
               </p>
             </section>
 
             <section className="policy-section">
-              <h2>7. Your Privacy Rights (GDPR — EEA/UK Users)</h2>
+              <h2>8. Your Privacy Rights (GDPR — EEA/UK)</h2>
               <p>
-                If you are located in the European Economic Area (EEA) or the United Kingdom, you have
-                certain rights under the General Data Protection Regulation (GDPR) and applicable
-                national laws regarding your personal data:
+                If you are located in the European Economic Area (EEA) or the United Kingdom, you may have
+                rights to access, rectify, erase, restrict, object to, or port your personal data.
               </p>
+              <p>Because we do not hold data directly, requests often apply to:</p>
               <ul>
-                <li><strong>Right of Access</strong> — You have the right to request copies of your personal data.</li>
-                <li><strong>Right to Rectification</strong> — You have the right to request correction of inaccurate data.</li>
-                <li><strong>Right to Erasure</strong> — You have the right to request deletion of your personal data.</li>
-                <li><strong>Right to Restrict Processing</strong> — You have the right to request restriction of processing your data.</li>
-                <li><strong>Right to Data Portability</strong> — You have the right to request transfer of your data to another organization.</li>
-                <li><strong>Right to Object</strong> — You have the right to object to our processing of your data.</li>
+                <li><strong>Google:</strong>{' '}
+                  <a href="https://myaccount.google.com" target="_blank" rel="noopener noreferrer">
+                    https://myaccount.google.com
+                  </a>
+                </li>
+                <li><strong>Meta:</strong>{' '}
+                  <a href="https://www.facebook.com/help/contact" target="_blank" rel="noopener noreferrer">
+                    https://www.facebook.com/help/contact
+                  </a>
+                </li>
+                <li><strong>TikTok:</strong>{' '}
+                  <a href="https://www.tiktok.com/legal/report/privacy" target="_blank" rel="noopener noreferrer">
+                    https://www.tiktok.com/legal/report/privacy
+                  </a>
+                </li>
               </ul>
-              <p>
-                Since we do not directly collect personal data, most of these rights apply to data
-                held by Google AdMob. You can exercise these rights directly with Google at{' '}
-                <a
-                  href="https://myaccount.google.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  https://myaccount.google.com
-                </a>.
-              </p>
               <p>
                 For any privacy-related requests, please contact us at{' '}
                 <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
@@ -270,39 +326,43 @@ export default function PrivacyPolicy() {
             </section>
 
             <section className="policy-section">
-              <h2>8. California Privacy Rights (CCPA)</h2>
+              <h2>9. California Privacy Rights (CCPA/CPRA)</h2>
               <p>
-                If you are a California resident, the California Consumer Privacy Act (CCPA) may
-                provide you with additional rights regarding your personal information.
+                If you are a California resident, you may have additional rights regarding your personal information.
               </p>
               <p>
-                We do not sell personal information. We do share device advertising identifiers with
-                Google AdMob for advertising purposes, which may constitute "sharing" under the CCPA.
-                You may opt out of this by resetting or deleting your advertising ID as described in
-                Section 4.1 of this policy.
+                We do not sell personal information. Device identifiers and app events may be{' '}
+                <strong>shared</strong> with advertising and analytics partners. You may opt out of
+                personalized advertising via your device advertising settings.
               </p>
               <p>
-                For any CCPA-related inquiries, please contact us at{' '}
+                For CCPA-related inquiries, contact us at{' '}
                 <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
               </p>
             </section>
 
             <section className="policy-section">
-              <h2>9. Data Security</h2>
+              <h2>10. Data Security</h2>
               <p>
-                We take reasonable measures to protect the information collected through {APP_NAME}.
-                However, please be aware that no method of transmission over the internet or method of
-                electronic storage is 100% secure, and we cannot guarantee the absolute security of
-                any information processed by third-party services.
+                We rely on reputable third-party providers and reasonable safeguards. However, no method
+                of transmission over the internet is 100% secure, and we cannot guarantee the absolute
+                security of information processed by third-party services.
               </p>
               <p>
-                The local data stored on your device (game progress and settings) is protected by your
-                device's built-in security mechanisms.
+                Local data on your device is protected by your device&apos;s built-in security mechanisms.
               </p>
             </section>
 
             <section className="policy-section">
-              <h2>10. Links to Other Websites</h2>
+              <h2>11. International Transfers</h2>
+              <p>
+                Third-party providers may process data in countries outside your own, including the
+                United States, under their standard contractual and policy safeguards.
+              </p>
+            </section>
+
+            <section className="policy-section">
+              <h2>12. Links to Other Websites</h2>
               <p>
                 {APP_NAME} may contain links to external websites (such as Google Play or the Apple App
                 Store). This Privacy Policy does not apply to those external sites. We encourage you
@@ -311,20 +371,16 @@ export default function PrivacyPolicy() {
             </section>
 
             <section className="policy-section">
-              <h2>11. Changes to This Privacy Policy</h2>
+              <h2>13. Changes to This Privacy Policy</h2>
               <p>
-                We may update this Privacy Policy from time to time to reflect changes in our practices
-                or for other operational, legal, or regulatory reasons. We will notify you of any
-                significant changes by updating the "Last updated" date at the top of this page.
-              </p>
-              <p>
-                We encourage you to review this Privacy Policy periodically. Your continued use of
-                {' '}{APP_NAME} after any changes constitutes your acceptance of the updated policy.
+                We may update this Privacy Policy from time to time. We will update the &quot;Last updated&quot;
+                date at the top of this page. Your continued use of {APP_NAME} after any changes
+                constitutes your acceptance of the updated policy.
               </p>
             </section>
 
             <section className="policy-section">
-              <h2>12. Contact Us</h2>
+              <h2>14. Contact Us</h2>
               <p>
                 If you have any questions, concerns, or requests regarding this Privacy Policy or
                 our data practices, please contact us:
@@ -342,7 +398,7 @@ export default function PrivacyPolicy() {
                 </p>
               </div>
               <p style={{ marginTop: '16px' }}>
-                We will respond to all privacy-related inquiries within 30 days.
+                We aim to respond to all privacy-related inquiries within 30 days.
               </p>
             </section>
 
