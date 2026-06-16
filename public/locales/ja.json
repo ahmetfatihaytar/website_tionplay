@@ -11,14 +11,14 @@
   "gameDetail": { "download": "Google Playで無料ダウンロード", "privacyPolicy": "プライバシーポリシー", "screenshots": "スクリーンショット", "themes": "ゲームテーマ", "levels": "100レベル", "themes10": "10ユニークなテーマ", "free": "無料プレイ" },
   "blog": { "pageTitle": "ブログ", "subtitle": "ゲーム開発、デザイン、インディーの旅について", "searchPlaceholder": "記事を検索...", "filterAll": "すべて", "readMore": "続きを読む", "minRead": "分で読める", "by": "著者", "noResults": "記事が見つかりません。別の検索を試してください。", "categories": { "all": "すべて", "mobileGames": "モバイルゲーム", "gameDev": "ゲーム開発", "flutter": "Flutter", "indieDev": "インディー開発", "gameDesign": "ゲームデザイン", "mobileIndustry": "モバイル業界" } },
   "blogPost": { "backToBlog": "← ブログに戻る", "share": "この記事をシェア", "shareTwitter": "Xでシェア", "shareLinkedin": "LinkedInでシェア", "copyLink": "リンクをコピー", "copied": "コピーしました！", "relatedPosts": "関連投稿", "prevPost": "← 前へ", "nextPost": "次へ →" },
-  "contact": { "pageTitle": "お問い合わせ", "subtitle": "ぜひご連絡ください", "name": "お名前", "email": "メールアドレス", "subject": "件名", "message": "メッセージ", "send": "送信", "sending": "送信中...", "success": "メッセージが送信されました！まもなくご連絡します。", "error": "エラーが発生しました。もう一度お試しください。", "emailInvalid": "有効なメールアドレスを入力してください。", "captchaLabel": "脳トレ: {{a}} + {{b}} =", "captchaError": "回答が正しくありません。もう一度お試しください。", "subjects": { "general": "一般的な質問", "partnership": "パートナーシップ", "press": "プレス・メディア", "other": "その他" }, "info": { "location": "イスタンブール、トルコ", "email": "hello@tionplay.com", "social": "オンラインで見つける" }, "orEmail": "または直接メールを送信してください：" },
+  "contact": { "pageTitle": "お問い合わせ", "subtitle": "ぜひご連絡ください", "name": "お名前", "email": "メールアドレス", "subject": "件名", "message": "メッセージ", "send": "送信", "sending": "送信中...", "success": "メッセージが送信されました！まもなくご連絡します。", "error": "エラーが発生しました。もう一度お試しください。", "nameRequired": "お名前を入力してください。", "messageRequired": "メッセージを入力してください。", "emailInvalid": "有効なメールアドレスを入力してください。", "captchaLabel": "脳トレ: {{a}} + {{b}} =", "captchaError": "回答が正しくありません。もう一度お試しください。", "subjects": { "general": "一般的な質問", "partnership": "パートナーシップ", "press": "プレス・メディア", "other": "その他" }, "info": { "location": "イスタンブール、トルコ", "email": "hello@tionplay.com", "social": "オンラインで見つける" }, "orEmail": "または直接メールを送信してください：" },
   "footer": { "tagline": "イスタンブールから愛を込めてゲームを作っています。", "quickLinks": "クイックリンク", "legal": "法的情報", "privacyPolicy": "プライバシーポリシー", "terms": "利用規約", "copyright": "© 2026 Tion Play. 全著作権所有。", "madeWith": "イスタンブールで☕と🐱と共に作られました" },
   "notFound": { "title": "レベルが見つかりません！", "subtitle": "このページは存在しないようです。秘密のレベルかもしれません？", "cta": "ホームに戻る" },
   "langSwitcher": { "label": "言語" }
 ,
   "tapstop": {
     "tagline": "完璧な瞬間にタップ — 10種類のチャレンジで！",
-    "description": "TapStop!は10種類の異なるミニゲームメカニクスを持つ精密タイミングゲームです。100の手作りレベル、滑らかな60fps — そして完全無料。",
+    "description": "TapStop!は10種類の異なるミニゲームメカニクスを持つ精密タイミングゲームです。100の手作りレベル — そして完全無料。",
     "statLevels": "レベル",
     "statMechanics": "ミニゲーム",
     "statThemes": "テーマ",

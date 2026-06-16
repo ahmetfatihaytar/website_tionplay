@@ -140,6 +140,8 @@
     "sending": "Sending...",
     "success": "Message sent! We'll get back to you soon.",
     "error": "Something went wrong. Please try again.",
+    "nameRequired": "Please enter your name.",
+    "messageRequired": "Please enter your message.",
     "emailInvalid": "Please enter a valid email address.",
     "captchaLabel": "Brain Gym: {{a}} + {{b}} =",
     "captchaError": "Incorrect answer. Please try again.",
@@ -175,7 +177,7 @@
   },
   "tapstop": {
     "tagline": "Tap at the perfect moment — across 10 different challenges!",
-    "description": "TapStop is a precision timing mobile game featuring 10 completely different mini-game mechanics. Each level puts your reflexes to a brand-new test: fill a glass without spilling, cut fruit in half, inflate a balloon without popping it, rescue a princess past a sleeping bear, and much more. 100 hand-crafted levels, 6 stunning visual themes, buttery-smooth 60fps — and completely free.",
+    "description": "TapStop is a precision timing mobile game featuring 10 completely different mini-game mechanics. Each level puts your reflexes to a brand-new test: fill a glass without spilling, cut fruit in half, inflate a balloon without popping it, rescue a princess past a sleeping bear, and much more. 100 hand-crafted levels — and completely free.",
     "statLevels": "Levels",
     "statMechanics": "Mini-Games",
     "statThemes": "Themes",

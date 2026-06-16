@@ -11,14 +11,14 @@
   "gameDetail": { "download": "在Google Play免费下载", "privacyPolicy": "隐私政策", "screenshots": "截图", "themes": "游戏主题", "levels": "100关", "themes10": "10个独特主题", "free": "免费畅玩" },
   "blog": { "pageTitle": "博客", "subtitle": "关于游戏开发、设计和独立之旅的见解", "searchPlaceholder": "搜索文章...", "filterAll": "全部", "readMore": "阅读更多", "minRead": "分钟阅读", "by": "作者", "noResults": "未找到文章。请尝试不同的搜索。", "categories": { "all": "全部", "mobileGames": "手机游戏", "gameDev": "游戏开发", "flutter": "Flutter", "indieDev": "独立开发", "gameDesign": "游戏设计", "mobileIndustry": "移动行业" } },
   "blogPost": { "backToBlog": "← 返回博客", "share": "分享这篇文章", "shareTwitter": "在X分享", "shareLinkedin": "在LinkedIn分享", "copyLink": "复制链接", "copied": "已复制！", "relatedPosts": "相关文章", "prevPost": "← 上一篇", "nextPost": "下一篇 →" },
-  "contact": { "pageTitle": "联系我们", "subtitle": "我们很乐意收到您的消息", "name": "您的姓名", "email": "电子邮件地址", "subject": "主题", "message": "您的留言", "send": "发送消息", "sending": "发送中...", "success": "消息已发送！我们很快会回复您。", "error": "出了点问题。请再试一次。", "emailInvalid": "请输入有效的电子邮件地址。", "captchaLabel": "脑力训练：{{a}} + {{b}} =", "captchaError": "答案不正确，请重试。", "subjects": { "general": "一般咨询", "partnership": "合作", "press": "媒体", "other": "其他" }, "info": { "location": "土耳其伊斯坦布尔", "email": "hello@tionplay.com", "social": "在线找到我们" }, "orEmail": "或直接发送电子邮件：" },
+  "contact": { "pageTitle": "联系我们", "subtitle": "我们很乐意收到您的消息", "name": "您的姓名", "email": "电子邮件地址", "subject": "主题", "message": "您的留言", "send": "发送消息", "sending": "发送中...", "success": "消息已发送！我们很快会回复您。", "error": "出了点问题。请再试一次。", "nameRequired": "请输入您的姓名。", "messageRequired": "请输入您的消息。", "emailInvalid": "请输入有效的电子邮件地址。", "captchaLabel": "脑力训练：{{a}} + {{b}} =", "captchaError": "答案不正确，请重试。", "subjects": { "general": "一般咨询", "partnership": "合作", "press": "媒体", "other": "其他" }, "info": { "location": "土耳其伊斯坦布尔", "email": "hello@tionplay.com", "social": "在线找到我们" }, "orEmail": "或直接发送电子邮件：" },
   "footer": { "tagline": "从伊斯坦布尔带着爱制作游戏。", "quickLinks": "快速链接", "legal": "法律", "privacyPolicy": "隐私政策", "terms": "服务条款", "copyright": "© 2026 Tion Play. 版权所有。", "madeWith": "在伊斯坦布尔用☕和🐱制作" },
   "notFound": { "title": "关卡未找到！", "subtitle": "这个页面似乎不存在。也许这是一个秘密关卡？", "cta": "返回首页" },
   "langSwitcher": { "label": "语言" }
 ,
   "tapstop": {
     "tagline": "在完美的时刻点击 — 10种不同的挑战！",
-    "description": "TapStop!是一款精准时机手游，拥有10种完全不同的小游戏机制。100个精心设计的关卡，流畅60fps — 完全免费。",
+    "description": "TapStop!是一款精准时机手游，拥有10种完全不同的小游戏机制。100个精心设计的关卡 — 完全免费。",
     "statLevels": "关卡",
     "statMechanics": "小游戏",
     "statThemes": "主题",

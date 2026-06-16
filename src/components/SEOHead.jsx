@@ -19,7 +19,7 @@ export default function SEOHead({
   jsonLd = null,
 }) {
   const fullUrl = `${BASE_URL}/${lang}${path ? `/${path}` : ''}`
-  const fullTitle = title ? `${title} | Tion Play` : 'Tion Play — Indie Mobile Game Studio'
+  const fullTitle = title ? `Tion Play | ${title}` : 'Tion Play — Indie Mobile Game Studio'
   const fullImage = image.startsWith('http') ? image : `${BASE_URL}${image}`
 
   return (

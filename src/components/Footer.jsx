@@ -13,7 +13,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="footer-brand">
             <Link to={base} aria-label="Tion Play — Home">
-              <img src="/logo.png" alt="Tion Play logo" height="48" />
+              <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Tion Play logo" height="48" />
             </Link>
             <p style={{ marginTop: '16px' }}>{t('footer.tagline')}</p>
             <p style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.4)', marginTop: '8px', fontWeight: 600 }}>

@@ -11,14 +11,14 @@
   "gameDetail": { "download": "Google Play에서 무료 다운로드", "privacyPolicy": "개인정보 처리방침", "screenshots": "스크린샷", "themes": "게임 테마", "levels": "100 레벨", "themes10": "10개의 고유한 테마", "free": "무료 플레이" },
   "blog": { "pageTitle": "블로그", "subtitle": "게임 개발, 디자인, 인디 여정에 관한 인사이트", "searchPlaceholder": "기사 검색...", "filterAll": "전체", "readMore": "더 읽기", "minRead": "분 읽기", "by": "작성자", "noResults": "기사를 찾을 수 없습니다. 다른 검색어를 시도해보세요.", "categories": { "all": "전체", "mobileGames": "모바일 게임", "gameDev": "게임 개발", "flutter": "Flutter", "indieDev": "인디 개발", "gameDesign": "게임 디자인", "mobileIndustry": "모바일 산업" } },
   "blogPost": { "backToBlog": "← 블로그로 돌아가기", "share": "이 기사 공유하기", "shareTwitter": "X에서 공유", "shareLinkedin": "LinkedIn에서 공유", "copyLink": "링크 복사", "copied": "복사됨!", "relatedPosts": "관련 포스트", "prevPost": "← 이전", "nextPost": "다음 →" },
-  "contact": { "pageTitle": "문의", "subtitle": "여러분의 연락을 기다립니다", "name": "이름", "email": "이메일 주소", "subject": "제목", "message": "메시지", "send": "메시지 보내기", "sending": "전송 중...", "success": "메시지가 전송되었습니다! 곧 연락드리겠습니다.", "error": "문제가 발생했습니다. 다시 시도해주세요.", "emailInvalid": "유효한 이메일 주소를 입력해주세요.", "captchaLabel": "두뇌 운동: {{a}} + {{b}} =", "captchaError": "잘못된 답입니다. 다시 시도해주세요.", "subjects": { "general": "일반 문의", "partnership": "파트너십", "press": "언론 및 미디어", "other": "기타" }, "info": { "location": "이스탄불, 터키", "email": "hello@tionplay.com", "social": "온라인에서 찾아보기" }, "orEmail": "또는 직접 이메일을 보내주세요:" },
+  "contact": { "pageTitle": "문의", "subtitle": "여러분의 연락을 기다립니다", "name": "이름", "email": "이메일 주소", "subject": "제목", "message": "메시지", "send": "메시지 보내기", "sending": "전송 중...", "success": "메시지가 전송되었습니다! 곧 연락드리겠습니다.", "error": "문제가 발생했습니다. 다시 시도해주세요.", "nameRequired": "이름을 입력해 주세요.", "messageRequired": "메시지를 입력해 주세요.", "emailInvalid": "유효한 이메일 주소를 입력해주세요.", "captchaLabel": "두뇌 운동: {{a}} + {{b}} =", "captchaError": "잘못된 답입니다. 다시 시도해주세요.", "subjects": { "general": "일반 문의", "partnership": "파트너십", "press": "언론 및 미디어", "other": "기타" }, "info": { "location": "이스탄불, 터키", "email": "hello@tionplay.com", "social": "온라인에서 찾아보기" }, "orEmail": "또는 직접 이메일을 보내주세요:" },
   "footer": { "tagline": "이스탄불에서 사랑을 담아 게임을 만듭니다.", "quickLinks": "빠른 링크", "legal": "법적 사항", "privacyPolicy": "개인정보 처리방침", "terms": "이용약관", "copyright": "© 2026 Tion Play. 모든 권리 보유.", "madeWith": "이스탄불에서 ☕와 🐱로 만들었습니다" },
   "notFound": { "title": "레벨을 찾을 수 없습니다!", "subtitle": "이 페이지는 존재하지 않는 것 같습니다. 비밀 레벨일까요?", "cta": "홈으로 돌아가기" },
   "langSwitcher": { "label": "언어" }
 ,
   "tapstop": {
     "tagline": "완벽한 순간에 탭 — 10가지 도전에서!",
-    "description": "TapStop!은 10가지의 완전히 다른 미니게임 메커니즘을 가진 정밀 타이밍 게임입니다. 100개의 수제 레벨, 부드러운 60fps — 완전 무료.",
+    "description": "TapStop!은 10가지의 완전히 다른 미니게임 메커니즘을 가진 정밀 타이밍 게임입니다. 100개의 수제 레벨 — 완전 무료.",
     "statLevels": "레벨",
     "statMechanics": "미니게임",
     "statThemes": "테마",

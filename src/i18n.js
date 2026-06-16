@@ -13,7 +13,7 @@ i18n
     defaultNS: 'translation',
     ns: ['translation'],
     backend: {
-      loadPath: '/locales/{{lng}}.json',
+      loadPath: `${import.meta.env.BASE_URL}locales/{{lng}}.json`,
     },
     detection: {
       order: ['path', 'localStorage', 'navigator'],

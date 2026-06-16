@@ -95,4 +95,4 @@ Deploys to GitHub Pages at `https://tionplay.com` (configured via `homepage` in 
 
 ---
 
-*© 2025 Tion Play. All rights reserved.*
+*© 2026 Tion Play. All rights reserved.*
